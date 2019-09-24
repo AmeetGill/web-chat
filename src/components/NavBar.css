@@ -1,0 +1,95 @@
+#headers-icons {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    float:right;
+    padding-right: 4%;
+}
+
+#headers-icons li {
+    float: right;
+  
+}
+
+.img-holder img:hover {
+    border-color: #00326E;
+    cursor: pointer;
+}
+
+.img-holder[aria-expanded=true] img, .img-holder[aria-expanded=true] img:hover {
+    border-color: #FFDE03;
+}
+
+.img-holder img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid transparent;
+}
+
+
+#headers-icons li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+   
+}
+
+#headers-icons li a:hover {
+    padding-top: 18px;
+}
+
+.dropdown-menu li a {
+    color:#00326E;
+    text-decoration: none
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+}
+
+.dropdown-menu li a span {
+    margin: 0 16px;
+}
+
+.my-dropdown li a span {
+    margin: 0 16px;
+}
+
+.my-dropdown li:hover{
+    color:#00326E;
+}
+
+.my-dropdown li {
+    color:#185A9D;
+}
+
+.my-dropdown li a:hover{
+    color:#00326E;
+}
+
+.my-dropdown li a{
+    color:#185A9D;
+}
+
+
+.my-dropdown li {
+    float: left;
+    height: 60px;
+    padding-top: 17px;
+    padding-left: 7px;
+}
+
+.my-dropdown{
+    top:50px;
+    right:8%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none
+}

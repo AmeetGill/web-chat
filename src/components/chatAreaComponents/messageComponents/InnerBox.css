@@ -1,0 +1,15 @@
+.message-content{
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+.recieved-message{
+  background-color: #32a698;
+  border: none;
+}
+
+.sent-message{
+  background-color: #888 ;
+  border: none;
+}

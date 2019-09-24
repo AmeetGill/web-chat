@@ -1,0 +1,44 @@
+.form-field {
+  position: absolute;
+  bottom: -1%;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 35px;
+  padding-bottom: 5px;
+}
+
+.form-field .icon {
+  align-self: center;
+  color: #888;
+  padding: .5em .5em;
+  margin-left: 10px;
+}
+
+.form-field > section {
+  border: 1px solid #aaa;
+  border-radius: 100px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+}
+
+.form-field > section textarea {
+  border: 0;
+  flex-grow: 1;
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding: 1em;
+  border-radius: 100px;
+  height: 3.5rem;
+  line-height: 18px;
+   border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

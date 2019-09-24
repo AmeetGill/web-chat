@@ -1,0 +1,18 @@
+.selected-user{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  text-align: center;
+  margin: 0;
+}
+
+.selected-user > .username{
+  font-size: 1.2em;
+  color: #1A535C;
+}
+
+.selected-user > li{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}

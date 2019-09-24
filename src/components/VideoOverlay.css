@@ -1,0 +1,37 @@
+.video-icon:focus{
+  border: none;
+  outline: none;
+}
+
+.camera-icon{
+  position: absolute;
+  bottom: 18px; 
+  left: 75%;
+}
+
+.mic-icon{
+  position: absolute;
+  bottom: 18px; 
+  left: 65%;
+}
+
+.video-setting-icon{
+  display: table;
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  background-color: rgba(128, 128, 128, 0.3);
+  z-index: 2;
+}
+
+.video-setting-icon:hover{
+  background-color: #80808078;
+}
+
+.video-setting-icon > i {
+  color: #ffffff96;
+  font-size: 20px; 
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
+}

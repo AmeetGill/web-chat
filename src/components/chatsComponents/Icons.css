@@ -1,0 +1,11 @@
+.chat-icons-container{
+  top: 136px;
+  float: left;
+  left: 25px;
+  position: absolute;
+}
+
+.chat-icons-container > a{
+  display: flex;
+  align-items: flex-end;
+}

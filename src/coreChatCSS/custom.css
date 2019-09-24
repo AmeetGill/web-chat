@@ -1,0 +1,5102 @@
+body:after {
+    content: url(../img/Rx-icon.png) url(../img/dropoff-icon.png) url(../img/pickup-icon.png) url(../img/facebook-hover.png) url(../img/twitter-hover.png) url(../img/linkedin-hover.png) url(../img/yelp-hover.png) url(../img/5-star-orange.png) url(../img/checkbox3-active.png) url(../img/checkbox2-active.png) url(../img/checkbox-active.png);
+    display: none;
+}
+
+.cupo {
+    cursor: pointer;
+}
+
+.message-notification{
+  display: inline-block;
+  position: absolute;
+  right: 3px;
+  top: 5px;
+  width: 0px;
+  height: 0px;
+  background-color: #6C5CE7;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Montserratlight", sans-serif;
+}
+
+#locationicon {
+    background: rgb(236, 243, 241);
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(236, 243, 241), rgb(226, 233, 231));
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(236, 243, 241), rgb(226, 233, 231));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(236, 243, 241), rgb(226, 233, 231));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(236, 243, 241), rgb(226, 233, 231));
+    /* Standard syntax */
+    height: 40px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -4px;
+    left: -34px;
+    border: 1px solid #dae0dd;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#locationicon.active {
+    background: #e7eeec;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e7eeec, #d4dbd9);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e7eeec, #d4dbd9);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e7eeec, #d4dbd9);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e7eeec, #d4dbd9);
+    /* Standard syntax */
+}
+
+#locationicon img {
+    margin-top: -24px;
+    margin-left: 2px;
+}
+
+#searchTextField {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #f2faf7;
+    border: 1px solid #dae0dd;
+}
+
+#searchTextField.nolocation {
+    border-radius: 5px;
+}
+
+.placeorderbtn {
+    padding: 6px 8px;
+    border-radius: 3px;
+    border: 1px solid #dae0de;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.placeorderbtn:hover {
+    border-color: #0b9887;
+    color: #0b9887;
+}
+
+.favoriteicon span {
+    color: #959e9b;
+}
+
+.favoriteicon button {
+    height: 14px;
+    width: 14px;
+    background-image: url(../img/Heart-Icon.png);
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.favoriteicon button:active {
+    outline: none;
+}
+
+.favoriteicon button:hover {
+    background-image: url(../img/Heart_Icon_outlined.png);
+}
+
+.favoriteicon button.active {
+    background-image: url(../img/Heat_Icon_filled.png);
+}
+
+.search-doctors .list .doctor-list .info-profile .box .icon-nav {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+}
+
+.search-doctors .list .doctor-list .info-profile .box .favoriteicon {
+    display: inline-block;
+}
+
+.modal-list .info-profile .box .favoriteicon {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+.od .link {
+    color: #353837;
+    border: 0;
+    margin-top: 9px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Montserratlight", sans-serif;
+}
+
+.od {
+    cursor: pointer;
+}
+
+.od.orderlink {
+    margin-left: -3px;
+    padding-bottom: 2px;
+    transition: 0.4s background-color;
+    width: 89px;
+    height: 63px;
+}
+
+.od.deliverylink {
+    margin-left: -3px;
+    padding-bottom: 2px;
+    transition: 0.4s background-color;
+    width: 98px;
+    height: 63px;
+}
+
+.od.active, .dllink.active {
+    border-bottom: 3px solid #1c9989;
+}
+
+.od:hover {
+    background-color: #e4ebe8;
+}
+
+.scheduledelivery {
+    font-family: "Montserratlight", sans-serif;
+    padding: 8px 14px 9px;
+    border-radius: 3px;
+    border: 1px solid #d8e6e1;
+    background-color: transparent;
+    text-decoration: none !important;
+    color: #353837;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.scheduledelivery:hover, .scheduledelivery:active {
+    text-decoration: none;
+    color: #0b9887;
+    border-color: #0b9887;
+}
+
+.search-doctors .list .doctor-list .info-profile .box-footer .item.col3 {
+    margin-right: 30px;
+}
+
+.search-doctors .list .doctor-list .info-profile .box-footer .item.col3:after {
+    margin-left: 25px;
+}
+
+.search-doctors .list .doctor-list .info-profile .box-footer .item.col3:last-child {
+    margin-right: 0;
+}
+
+.loc-tooltip {
+    position: absolute;
+    top: 52px;
+    margin-left: -35px;
+    z-index: 1;
+    display: none;
+}
+
+.loc-tooltip img {
+    position: absolute;
+    z-index: 2;
+    top: -12px;
+    left: 13px;
+}
+
+.loc-tooltip-inner {
+    border: 1px solid #d8e6e1;
+    border-radius: 3px;
+    padding: 9px;
+    color: #353837;
+    outline: none;
+    background-color: #f2faf7;
+    font-family: "Montserratlight", sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 2px 5px 0px #888;
+    opacity: 0.9;
+    resize: horizontal;
+    max-width: 400px;
+    min-width: 296px;
+}
+
+input[name=formiles]::-webkit-outer-spin-button, input[name=formiles]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[name=formiles] {
+    -moz-appearance: textfield;
+    outline: none;
+    max-width: 40px;
+    width: 100%;
+    border: 0;
+    text-align: center;
+}
+
+.search-doctors .list .range .miles div span:hover, .search-doctors .list .range .miles div span:active {
+    border-color: #babfbd;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear1 {
+    clear: both;
+    height: 1px;
+}
+
+.clear5 {
+    clear: both;
+    height: 5px;
+}
+
+.clear6 {
+    clear: both;
+    height: 6px;
+}
+
+.clear10 {
+    clear: both;
+    height: 10px;
+}
+
+.clear20 {
+    clear: both;
+    height: 20px;
+}
+
+.clear30 {
+    clear: both;
+    height: 30px;
+}
+
+.clear50 {
+    clear: both;
+    height: 50px;
+}
+
+#signinform .errormsg {
+    text-transform: capitalize;
+}
+
+#signinbox {
+    width: 515px;
+    min-height: 295px;
+    border: 1px solid #dfe6e4;
+    border-bottom: 1px solid #ccd6d2;
+    box-shadow: 0px 1px 5px 0px #d7dad9;
+    border-radius: 5px;
+    background-color: #edf5f2;
+    text-align: left;
+    transition: 0.4s;
+
+    /* Sign in position fix */
+    margin: auto!important;
+
+}
+
+#signinbox:active, #signinbox:hover {
+    border: 1px solid #d9e3df;
+    border-bottom: 1px solid #acb8b3;
+}
+
+.main.signin, .main.resetpassword, .main.signup {
+    background-image: none;
+    background-color: #f2faf7;
+    height: calc(80% - 50px);
+    font-family: 'Montserratlight' !important;
+}
+
+.main.signup {
+    background-color: #fff;
+    height: auto;
+}
+
+.main.signup h3 {
+    font-size: 36px;
+}
+
+.main.signup.complete {
+    height: calc(85% - 60px);
+}
+
+.main.signup h4 {
+    line-height: 24px;
+}
+
+.main.resetpassword, .main.signup {
+    align-items: initial;
+}
+
+.signinbtn {
+    margin-left: 5px;
+}
+
+.main.resetpassword .part2 {
+    display: none;
+}
+
+.main.signin .content {
+    top: -39px;
+}
+.content {
+    width: 1000px;
+}
+#signinbox .panel-heading {
+    background-color: #e6edea;
+    height: 72px;
+    border-color: #dfe6e4;
+    text-align: center;
+}
+
+#signinbox .panel-body {
+    border-color: #dfe6e4;
+    background-color: #edf5f2;
+    height: calc(100% - 73px);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-bottom: 32px;
+}
+
+#signinbox .panel-heading h3 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+.main.resetpassword h3 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 12px;
+}
+
+.main.resetpassword p {
+    font-size: 16px;
+}
+
+.main.resetpassword .part2 img {
+    float: left;
+    margin-right: 13px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+#signinbox input {
+    width: 421px;
+    margin: 0 auto;
+    border: 1px solid #dae0de;
+    background-color: #f2faf8;
+    color: #353837;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.main.resetpassword input {
+    width: 421px;
+    border: 1px solid #dae0de;
+    background-color: #f2faf8;
+    color: #353837;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#signinbox input.error, .main.resetpassword input.error {
+    border-color: #f2b8b5;
+}
+
+.main.signup .cntnr p.errormsg, .main.signup .cntnr p.errormsg2 {
+    color: #f00;
+    font-size: 14px;
+    display: none;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+.main.signup .cntnr p.errormsg2.terms {
+    margin-top: initial;
+    margin-bottom: 10px;
+}
+
+.main.signup .cntnr p.errormsg.textarea {
+    margin-top: 0;
+    margin-bottom: -20px;
+}
+
+.main.signup .cntnr p.errormsg img, .main.signup .cntnr p.errormsg2 img {
+    margin-top: -4px;
+    margin-right: 0;
+}
+
+#signinbox .errormsg {
+    color: #fe2322;
+    font-size: 14px;
+    width: 416px;
+    margin: 5px auto 0;
+    display: none;
+}
+
+.main.resetpassword .errormsg {
+    color: #fe2322;
+    font-size: 14px;
+    margin: 5px 4px 0;
+    display: none;
+}
+
+#signinbox input:focus, .main.resetpassword input:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px #b4dcd5;
+}
+
+#signinbox input[type=checkbox], .main.signup input[type=checkbox] {
+    display: none;
+    background-image: url(../img/checkbox-active.png);
+}
+
+#signinbox .checkboximg {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/checkbox.png);
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 34px;
+    margin-right: 5px;
+    float: left;
+}
+
+.main.signup .checkboximg {
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/checkbox2.png);
+    cursor: pointer;
+    margin-top: 2px;
+    margin-right: 7px;
+    float: left;
+}
+
+#modalupload .progress-title span {
+    display: none;
+}
+
+#modalupload .progress-title span.active {
+    display: block;
+}
+
+#modalupload .progress-title input[type=checkbox] {
+    background-image: url(../img/checkbox3-active.png);
+    display: none;
+}
+
+#modalupload .checkboximg {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/checkbox3.png);
+    cursor: pointer;
+    margin-top: 2px;
+    margin-right: 7px;
+    float: left;
+}
+
+#modalupload .checkboximg.active {
+    background-image: url(../img/checkbox3-active.png);
+}
+
+#signinbox .checkboximg.active {
+    background-image: url(../img/checkbox-active.png);
+}
+
+.main.signup .checkboximg.active {
+    background-image: url(../img/checkbox2-active.png);
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.signupcheckbox, .policyholdercheckbox {
+    margin-top: -5px;
+}
+
+.signupcheckbox span, .policyholdercheckbox span {
+    font-size: 16px;
+    color: #959e9b;
+    margin-top: -8px;
+}
+
+.signupcheckbox span a, .policyholdercheckbox span a {
+    color: #353837;
+    text-decoration: none;
+}
+
+.main.signup .imgformattext {
+    color: #959e9b;
+}
+
+.main.signup .socialbox .emptyimg {
+}
+
+#modalupload button input[type=file] {
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    direction: ltr;
+    cursor: pointer;
+    width: 124px;
+    height: 40px;
+    padding: 0;
+    margin-left: -7px;
+    margin-top: -30px;
+}
+
+#modalupload .progress {
+    height: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #dae0de;
+}
+
+#modalupload .progress .progress-bar {
+    border-radius: 15px;
+}
+
+#modalupload .progress-bar-info {
+    background: -webkit-linear-gradient(#00baff, #10a4db);
+    background: -o-linear-gradient(#00baff, #10a4db);
+    background: -moz-linear-gradient(#00baff, #10a4db);
+    background: linear-gradient(#00baff, #10a4db);
+}
+
+#modalupload .img-progress .img-border {
+    margin-right: 13px;
+    border: 1px solid #f6faf9;
+    background-color: #f6faf9;
+    border-radius: 2px;
+    float: left;
+    width: 96px;
+    height: 65px;
+    box-shadow: 0 0 2px 0 #d9e3df;
+    text-align: center;
+    overflow: hidden;
+}
+
+#modalupload .img-progress .img-title {
+    padding-top: 1px;
+    margin-bottom: 6px;
+}
+
+#modalupload .img-progress .img-title img {
+    cursor: pointer;
+    margin-right: -19px;
+    margin-top: 24px;
+}
+
+#modalupload .img-progress .progress-title {
+    color: #aeb6b3;
+    font-size: 13px;
+}
+
+.main.signup .socialbox button {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    width: 96px;
+    height: 30px;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#edf5f2, #e4ebe9);
+    background: -o-linear-gradient(#edf5f2, #e4ebe9);
+    background: -moz-linear-gradient(#edf5f2, #e4ebe9);
+    background: linear-gradient(#edf5f2, #e4ebe9);
+    margin-top: 6px;
+    margin-bottom: 9px;
+    margin-left: 1px;
+    outline: none;
+    font-family: 'Montserrat' !important;
+}
+
+.main.signup .socialbox button:hover {
+    border: 1px solid #e0e0e0;
+    background: -webkit-linear-gradient(#e1ece8, #d4dad8);
+    background: -o-linear-gradient(#e1ece8, #d4dad8);
+    background: -moz-linear-gradient(#e1ece8, #d4dad8);
+    background: linear-gradient(#e1ece8, #d4dad8);
+}
+
+#updatepatientbutton, #updatebutton, #signupbutton, #signuppatientbutton, #modalupload button {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-shadow: 0px 1px #098f7d;
+    border-radius: 5px;
+    border: 1px solid #059988;
+    border-bottom-color: #418a81;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 215px;
+    height: 45px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat' !important;
+    background: #1eb8a5;
+    transition: 0.4s;
+    background: -webkit-linear-gradient(#1eb8a5, #059988);
+    background: -o-linear-gradient(#1eb8a5, #059988);
+    background: -moz-linear-gradient(#1eb8a5, #059988);
+    background: linear-gradient(#1eb8a5, #059988);
+}
+
+#modalupload button {
+    width: 145px;
+}
+
+#modalupload button.choose {
+    background: -webkit-linear-gradient(#edf5f2, #e4ebe9);
+    background: -o-linear-gradient(#edf5f2, #e4ebe9);
+    background: -moz-linear-gradient(#edf5f2, #e4ebe9);
+    background: linear-gradient(#edf5f2, #e4ebe9);
+    width: auto;
+    color: #353837;
+    text-shadow: none;
+    font-size: 14px;
+    text-transform: none;
+    border: 1px solid #e0e0e0;
+    font-weight: normal;
+    letter-spacing: normal;
+    border-radius: 2px;
+    width: 124px;
+    height: 40px;
+    font-family: 'Montserrat' !important;
+    outline: none;
+}
+
+#modalupload .closebtn {
+    cursor: pointer;
+    margin-right: -48px;
+    margin-top: 7px;
+}
+
+#modalupload button.choose:hover, #modalupload button.choose:active {
+    background: -webkit-linear-gradient(#e6efeb, #dce4e2);
+    background: -o-linear-gradient(#e6efeb, #dce4e2);
+    background: -moz-linear-gradient(#e6efeb, #dce4e2);
+    background: linear-gradient(#e6efeb, #dce4e2);
+}
+
+#modalupload h3 span {
+    padding-bottom: 8px;
+}
+
+#modalupload .uploadfilebox {
+    border: 1px dashed #00a14b;
+    padding: 24px 0;
+    border-radius: 3px;
+    color: #959e9b;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+#signupbutton:hover, #signupbutton:active, #signuppatientbutton:hover, #signuppatientbutton:active, #modalupload button:hover, #modalupload button:active {
+    background: #1ba594;
+    background: -webkit-linear-gradient(#1ba594, #048475);
+    background: -o-linear-gradient(#1ba594, #048475);
+    background: -moz-linear-gradient(#1ba594, #048475);
+    background: linear-gradient(#1ba594, #048475);
+}
+
+#signinbox .rememberme {
+    position: relative;
+    left: 5px;
+}
+
+a.forgotbtn {
+    /* position: absolute;
+    right: 59px;
+    margin-top: -37px; */
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    color: #00978a;
+    text-decoration: none;
+
+    position: inherit;
+    /* margin-left: 45%; */
+}
+
+#signinbox button.signin, .main.resetpassword button {
+    text-shadow: 0px 1px #098f7d;
+    margin-right: 32px;
+    margin-top: -8px;
+    border-radius: 5px;
+    border: 1px solid #059988;
+    border-bottom-color: #418a81;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 102px;
+    height: 35px;
+    float: right;
+    letter-spacing: 1px;
+    background: #1eb8a5;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1eb8a5, #059988);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1eb8a5, #059988);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1eb8a5, #059988);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1eb8a5, #059988);
+    /* Standard syntax */
+    outline: none;
+}
+
+.main.resetpassword button {
+    float: left;
+    margin: 11px 0 0;
+}
+
+.main.resetpassword button.resetbtn {
+    width: auto;
+    padding: 1px 20px;
+}
+
+.main.resetpassword2 p {
+    font-size: 18px;
+}
+
+.main.resetpassword2 .part2 img {
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+#signinbox button.signin:hover, #signinbox button.signin:active, .main.resetpassword button:hover, .main.resetpassword button:active {
+    background: #1ba594;
+    background: -webkit-linear-gradient(#1ba594, #048475);
+    background: -o-linear-gradient(#1ba594, #048475);
+    background: -moz-linear-gradient(#1ba594, #048475);
+    background: linear-gradient(#1ba594, #048475);
+}
+
+#signuptext {
+    font-family: 'Montserratlight';
+    font-size: 16px;
+}
+
+#resettext {
+    font-family: 'Montserratlight';
+    font-size: 16px;
+    color: #959e9b;
+    margin-top: 2px;
+    margin-left: 38px;
+}
+
+#signuptext a, #resettext a, a.resendbtn {
+    color: #0b9887;
+    text-decoration: none;
+}
+
+#signuptext a:hover, #signuptext a:active, a.resendbtn:hover, a.resendbtn:active {
+    color: #007a66;
+}
+
+nav .notification, nav .account {
+    font-family: 'montserratlight';
+    display: inline-block;
+    padding: 0 0 0 6px;
+    margin-bottom: 0;
+    /* line-height: 60px; */
+}
+
+nav .account img {
+    margin-left: 8px;
+}
+
+#no-notification {
+    display: none;
+    width: 21px;
+}
+
+nav .account a {
+    text-decoration: none;
+}
+
+nav .navigation.help {
+    padding-left: 10px;
+}
+
+nav .account ul.dropdown-menu.account {
+    width: 260px;
+    right: -5px;
+    left: inherit;
+    top: 100%;
+    margin-top: 0;
+    background-color: #f2f2f2;
+    padding: 0px;
+    border-top: 1px solid #d8e6e1;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: none;
+}
+
+nav .account ul.dropdown-menu.account a, nav .notification ul.dropdown-menu a {
+    color: #353837;
+    padding: 0 25px;
+    font-size: 16px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 76px;
+}
+
+nav .account ul.dropdown-menu.account li, nav .notification ul.dropdown-menu li {
+    display: table;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+nav .account ul.dropdown-menu.account li.active, nav .notification ul.dropdown-menu li.active {
+    border: 1px solid #ccd9d4;
+    border-left: 3px solid #0b9887;
+}
+
+nav .account ul.dropdown-menu.account li.active a, nav .notification ul.dropdown-menu li.active a {
+    background-color: transparent;
+    padding-left: 23px;
+    background-image: none;
+}
+
+nav .account ul.dropdown-menu.account a:hover, nav .notification ul.dropdown-menu a:hover {
+    background-color: #e4ebe8;
+    color: #007a66;
+    background-image: none;
+}
+
+nav .account ul.dropdown-menu.account span, nav .notification ul.dropdown-menu span {
+    margin-right: 10px;
+}
+
+nav .account ul.dropdown-menu.account label, nav .notification ul.dropdown-menu label {
+    display: block;
+    padding-left: 38px;
+    color: #959e9b;
+    font-weight: normal;
+    margin: 0;
+    cursor: pointer;
+}
+
+nav .account ul.dropdown-menu:before {
+    top: -22px;
+    z-index: 0;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+    content: "";
+    position: absolute;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #f2f2f2;
+    font-size: 31px;
+    text-align: center;
+    text-shadow: 0px -6px 12px rgba(201, 205, 204, 0.6);
+    left: 167px;
+}
+
+nav .notification ul.dropdown-menu {
+    padding: 0;
+    width: 364px;
+    left: auto;
+    margin-top: -1px;
+    background-color: #f2f2f2;
+    border: 0;
+    right: -6px;
+}
+
+nav .notification ul.dropdown-menu a {
+    white-space: pre-wrap;
+    font-size: 14px;
+    height: auto;
+    padding: 14px 35px 14px 18px;
+}
+
+nav .notification ul.dropdown-menu a {
+    cursor: default;
+}
+
+nav .notification ul.dropdown-menu li.Seeall a {
+    color: #067d69;
+    cursor: pointer;
+}
+
+nav .notification ul.dropdown-menu:before {
+    top: -22px;
+    z-index: 0;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+    content: "";
+    position: absolute;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #f2f2f2;
+    font-size: 31px;
+    text-align: center;
+    text-shadow: 0px -6px 12px rgba(201, 205, 204, 0.6);
+    left: 180px;
+}
+
+.tooltip-inner img {
+    margin-top: -3px;
+}
+
+.order span {
+    cursor: pointer;
+}
+
+.order span:hover {
+    color: #0b9887;
+}
+
+.dropdown-toggle.search {
+    position: absolute;
+    display: block;
+    height: 40px;
+}
+
+.dropdown-toggle.search img {
+    margin-top: -21px;
+    margin-left: 16px;
+}
+
+.dropdown-menu.search {
+    font-family: 'montserratlight';
+    width: 170px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: #f2f2f2;
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu.search li:first-child {
+    border-top: 1px solid #d8e6e1;
+}
+
+.dropdown-menu.search li {
+    padding: 0 40px;
+    border-left: 1px solid #d8e6e1;
+    border-right: 1px solid #d8e6e1;
+    cursor: pointer;
+    border-color: #d8e6e1;
+}
+
+.dropdown-menu.search li:hover {
+    background-color: #e4ebe8;
+    color: #007a66;
+}
+
+.dropdown-menu.search li.active {
+    border-left: 3px solid #1c9989;
+    border-top: 1px solid #cedad5;
+    border-bottom: 1px solid #cedad5;
+    padding-left: 37px;
+}
+
+.dropdown-menu.search:before {
+    content: "";
+    background-image: url(../img/grey-tail-top.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 20px;
+    height: 15px;
+    top: -14px;
+    left: 14px;
+    position: absolute;
+    display: block;
+    z-index: 9;
+}
+
+.hide {
+    display: none;
+}
+
+nav .navigation li a.signupbtn, #signuptext .signupbtn {
+    cursor: pointer;
+}
+
+#modalbg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 4999;
+    display: none;
+}
+
+#modalbg2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4999;
+    display: none;
+}
+
+.inline-nav {
+    display: inline-block;
+}
+
+.inline-header {
+    display: inline-block;
+}
+
+.inline-subheader {
+    float: right;
+}
+
+.inline-subnav {
+    float: right;
+}
+
+.toggle-btn-medical-panel, .toggle-btn-contact-panel {
+    font-size: 17px;
+}
+
+.contact-info-panel, .medical-info-panel {
+    display: none;
+}
+
+.hr-no-margin-top {
+    margin-top: 0;
+}
+
+.signup-item-list {
+    border: 1px solid #dfe6e4 ;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    overflow-y: scroll;
+    max-height: 300px;
+    min-height: 50px;
+}
+
+.signup-item-list .item {
+    border-bottom: 1px solid #dfe6e4;
+    padding: 5px 10px;
+}
+
+.signup-item-list .item-content {
+    display: inline-block;
+    max-width: 90%;
+}
+
+.signup-item-list .item:last-child {
+    border-bottom: none;
+}
+
+.signup-item-list .item-content-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signup-item-list .date, .signup-item-list .reaction {
+    font-size: 15px;
+}
+
+.signup-item-list .delete-item {
+    float: right;
+    margin-top: 5px;
+    color: #e09f9f;
+    font-size: 13px;
+}
+
+#modalpatientprocedures, #modalpatientallergies, #modalresizepicture, #modaldoctorreview {
+    width: 600px;
+    font-size: 16px;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    margin-left: -300px;
+    margin-top: -102px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 16px 31px;
+    font-family: 'Montserratlight' !important;
+}
+
+#modalcanyoureviewdoctor {
+    width: 400px;
+    font-size: 16px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 16px 31px;
+    font-family: 'Montserratlight' !important;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 30%;
+}
+
+#modaldoctorinsurance {
+    width: 600px;
+    top: 15%;
+    font-size: 16px;
+    position: fixed;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -102px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 16px 31px;
+    font-family: 'Montserratlight' !important;
+}
+
+#modaldoctorinsurance a {
+    font-family: 'Montserratlight' !important;
+}
+
+#modaldoctorinsurance .no-results {
+    display: none;
+}
+
+#modaldoctorinsurance .insurance-selection-panel {
+    min-height: 42px;
+    max-height: 462px;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+#modaldoctorinsurance .selected-insurances-panel {
+    height: 150px;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.doctor-insurances-panel .panel-body::-webkit-scrollbar {
+    width: 3px;
+}
+
+.doctor-insurances-panel .glyphicon-trash {
+    color: #d69191;
+}
+
+.doctor-insurances-panel .glyphicon-plus {
+    color: #0b9887;
+}
+
+.doctor-insurances-panel .list-group {
+    margin-bottom: 0;
+}
+
+.doctor-insurances-panel .list-group-item {
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+}
+
+.doctor-insurances-panel .list-group-item:first-child {
+    border-top: 0;
+}
+
+.doctor-insurances-panel .list-group-item .glyphicon {
+    float: right;
+}
+
+.addinsurance {
+    margin-top: 2px;
+}
+
+#selected_insurance_group { 
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#selected_insurance_group .item-content{ 
+    padding: 7px 0 ;
+}
+
+@media screen and (max-width: 600px) {
+    #modalpatientprocedures, #modalpatientallergies, #modaldoctorinsurance, #modalresizepicture, #modaldoctorreview{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-height: 885px) {
+    #modaldoctorinsurance .insurance-selection-panel{
+        max-height: 40vh;
+    }
+
+    #modaldoctorinsurance .selected-insurances-panel{
+        max-height: 15vh;
+    }
+}
+
+#modalpatientallergies .help-block {
+    font-size: 13px;
+}
+
+#modalprocedures {
+    width: 600px;
+    font-size: 16px;
+    height: 204px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -102px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 16px 31px;
+    font-family: 'Montserratlight';
+}
+
+#modalprocedures button {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    width: 67px;
+    height: 30px;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#edf5f2, #e4ebe9);
+    background: -o-linear-gradient(#edf5f2, #e4ebe9);
+    background: -moz-linear-gradient(#edf5f2, #e4ebe9);
+    background: linear-gradient(#edf5f2, #e4ebe9);
+    margin-top: 6px;
+    margin-bottom: 9px;
+    margin-left: 1px;
+    color: #0b9887;
+    padding-top: 4px;
+    outline: none;
+    font-family: 'Montserrat' !important;
+}
+
+#modalprocedures button:hover {
+    border: 1px solid #e0e0e0;
+    background: -webkit-linear-gradient(#e1ece8, #d4dad8);
+    background: -o-linear-gradient(#e1ece8, #d4dad8);
+    background: -moz-linear-gradient(#e1ece8, #d4dad8);
+    background: linear-gradient(#e1ece8, #d4dad8);
+}
+
+#modalprocedures .closebtn {
+    margin-right: -25px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#modalprocedures p {
+    margin: 0 0 2px;
+}
+
+#modalprocedures .col-sm-3 {
+    padding-left: 0;
+}
+
+#modalprocedures input {
+    height: 50px;
+    font-size: 16px;
+    box-shadow: none;
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+}
+
+#modalprocedures input:focus {
+    border-color: #c6ccca;
+}
+
+#modalprocedures2 {
+    width: 600px;
+    font-size: 16px;
+    height: 204px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -102px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 16px 31px;
+    font-family: 'Montserratlight';
+}
+
+#modalprocedures2 button {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    width: 67px;
+    height: 30px;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#edf5f2, #e4ebe9);
+    background: -o-linear-gradient(#edf5f2, #e4ebe9);
+    background: -moz-linear-gradient(#edf5f2, #e4ebe9);
+    background: linear-gradient(#edf5f2, #e4ebe9);
+    margin-top: 6px;
+    margin-bottom: 9px;
+    margin-left: 1px;
+    color: #0b9887;
+    padding-top: 4px;
+    outline: none;
+    font-family: 'Montserrat' !important;
+}
+
+#modalprocedures2 button:hover {
+    border: 1px solid #e0e0e0;
+    background: -webkit-linear-gradient(#e1ece8, #d4dad8);
+    background: -o-linear-gradient(#e1ece8, #d4dad8);
+    background: -moz-linear-gradient(#e1ece8, #d4dad8);
+    background: linear-gradient(#e1ece8, #d4dad8);
+}
+
+#modalprocedures2 .closebtn {
+    margin-right: -25px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#modalprocedures2 p {
+    margin: 0 0 2px;
+}
+
+#modalprocedures2 .col-sm-3 {
+    padding-left: 0;
+}
+
+#modalprocedures2 input {
+    height: 50px;
+    font-size: 16px;
+    box-shadow: none;
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+}
+
+#modalprocedures2 input:focus {
+    border-color: #c6ccca;
+}
+
+#modalupload {
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -350px;
+    background-color: #edf5f2;
+    z-index: 5000;
+    display: none;
+    padding: 5px 60px;
+    font-family: 'Montserratlight';
+}
+
+#signupbox, #rx-confirm {
+    width: 700px;
+    height: 371px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -185px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 4px 7px;
+    font-family: 'Montserratlight';
+}
+#symptombox, #rx-confirm {
+    width: 55%;
+    height: 471px;
+    position: fixed;
+    overflow-y: scroll;
+    left: 37%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -185px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 4px 7px;
+    font-family: 'Montserratlight';
+}
+
+#token-expired-popup, #rx-confirm {
+     width: 700px;
+    height: 371px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -185px;
+    background-color: #fff;
+    z-index: 5000;
+    display: none;
+    padding: 4px 7px;
+    font-family: 'Montserratlight';
+    
+}
+
+#token-expired-popup h2, #rx-confirm h2 {
+    font-size: 36px;
+}
+
+#token-expired-popup button, #rx-confirm button {
+    width: 260px;
+    height: 100px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #353837;
+    margin: 0 8px;
+    transition: 0.4s;
+}
+
+#token-expired-popup button:hover, #token-expired-popup button:active, #rx-confirm button:hover, #rx-confirm button:active {
+    background-color: #e9f0ee;
+    border: 1px solid #0b9887;
+    color: #007a66;
+}
+
+
+#token-expired-popup .signintext, #rx-confirm .signintext {
+    font-family: 'Montserratlight';
+    font-size: 16px;
+}
+
+#token-expired-popup .signintext a {
+    color: #0b9887;
+    text-decoration: none;
+}
+
+
+#signupbox h2, #rx-confirm h2 {
+    font-size: 36px;
+}
+
+#signupbox button, #rx-confirm button {
+    width: 260px;
+    height: 100px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #353837;
+    margin: 0 8px;
+    transition: 0.4s;
+}
+
+#symptombox button, #rx-confirm button {
+    width: 60px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+    font-size: 10px;
+    color: #353837;
+    margin: 0 8px;
+    transition: 0.4s;
+}
+
+
+#signupbox button:hover, #signupbox button:active, #rx-confirm button:hover, #rx-confirm button:active {
+    background-color: #e9f0ee;
+    border: 1px solid #0b9887;
+    color: #007a66;
+}
+
+
+#signupbox .signintext, #rx-confirm .signintext {
+    font-family: 'Montserratlight';
+    font-size: 16px;
+}
+
+#signupbox .signintext a {
+    color: #0b9887;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.tar {
+    text-align: right;
+}
+
+.tal {
+    text-align: left;
+}
+
+#signupbox img {
+    cursor: pointer;
+}
+
+#symptombox img {
+    cursor: pointer;
+}
+
+.ntooltip-inner {
+    position: absolute;
+    background-color: #ffffd9;
+    border: 1px solid #ccc;
+    margin-top: -32px;
+    margin-left: -24px;
+    padding: 1px 11px;
+    color: #353837;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: "Montserratlight", sans-serif;
+}
+
+.fav.ntooltip-inner {
+    right: 0;
+    margin-top: -14px;
+    position: absolute;
+    background-color: #ffffd9;
+    border: 1px solid #ccc;
+    padding: 1px 11px;
+    color: #353837;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: "Montserratlight", sans-serif;
+}
+
+.modal-body .fav.ntooltip-inner {
+    right: -17px;
+    z-index: 9;
+}
+
+.dropdown-menu .myfav span {
+    transition: 0.4s;
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/heart-inactive.png);
+    margin-left: 5px;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+.dropdown-menu .myfav.active span, .dropdown-menu .myfav:hover span {
+    background-image: url(../img/Heat_Icon_filled.png);
+}
+
+.modal-list .info-profile {
+    padding: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #edf5f2;
+    transition: 0.5s all;
+    cursor: pointer;
+    max-height: 209px;
+}
+
+.modal-list .info-profile:hover {
+    border: 1px solid #c5d1cd;
+    box-shadow: 0 1px 3px rgba(156, 166, 162, 0.5);
+}
+
+.modal-list .info-profile.active {
+    border: 1px solid #0b9887;
+}
+
+.yellowtail {
+    position: absolute;
+    top: 22px;
+    right: 50%;
+}
+
+#map_canvas>div>div>div>div>div>div {
+    /* box-shadow: 0px 0px 3px 1px #959e9b; */
+    /* border-radius: 5px; */
+}
+
+#map>div>div>div>div>div>div {
+    /* box-shadow: 0px 0px 3px 1px #959e9b; */
+    /* border-radius: 5px; */
+}
+
+#map>div>div>div>div>div>div>div {
+    margin-top: 0;
+}
+
+.divider-grey {
+    height: 1px;
+    background-color: #dae0dd;
+    margin: 0px 0 18px;
+}
+
+.divider {
+    background-color: #dae0de;
+    height: 2px;
+    border-bottom: 1px solid #f8fbfa;
+}
+
+.divider1 {
+    background-color: #dae0de;
+    height: 1px;
+    margin: 0 -30px;
+}
+
+.main.signup .cntnr {
+    width: 540px;
+    margin: 0 auto;
+}
+
+.main.signup .cntnr label {
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.main.signup .cntnr input, .main.signup .cntnr textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+    padding: 10px 12px;
+    margin: 0 0 18px;
+    font-size: 16px;
+    box-shadow: none;
+    color: #353837;
+    height: 50px;
+}
+
+.main.signup .cntnr input.error, .main.signup .cntnr textarea.error {
+    border-color: #ff0000;
+}
+
+.main.signup .cntnr select {
+    height: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+    box-shadow: none;
+    background-image: url("../img/dropdown arrow.png");
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.main.signup.lab .cntnr select {
+    background-position: 97% 50%;
+}
+
+.main.signup .cntnr input:focus, .main.signup .cntnr textarea:focus, .main.signup .cntnr select:focus {
+    border-color: #c6ccca;
+}
+
+.main.signup .cntnr textarea {
+    overflow-y: hidden;
+    padding: 14px 12px;
+    resize: none;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+.main.signup .cntnr input.mg0 {
+    margin: 0;
+}
+
+.main.signup .aboutcharleft {
+    color: #959e9b;
+}
+
+.main.signup .cntnr p {
+    font-size: 1.2rem;
+    color: #959e9b;
+}
+
+.main.signup .cntnr p span.required{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.main.signup .cntnr p.active {
+    color: #00a14b;
+}
+
+.main.signup .cntnr .gender a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dae0de;
+    border-radius: 6px;
+    background: none;
+    outline: none;
+    transition: 0.6s all;
+    cursor: pointer;
+}
+
+.main.signup .cntnr .gender a:first-child {
+    margin-right: 5px;
+}
+
+.main.signup .cntnr .gender {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.main.signup .cntnr .gender a.male {
+    background: url(../img/male-icon.png) no-repeat;
+    background-position: 50% 50%;
+}
+
+.main.signup .cntnr .gender a.male:hover, .main.signup .cntnr .gender a.male.active {
+    background-image: url(../img/male-active.png);
+    border: 1px solid #0b9887;
+}
+
+.main.signup .cntnr .gender a.female {
+    background: url(../img/female-icon.png) no-repeat;
+    background-position: 50% 50%;
+}
+
+.main.signup .cntnr .gender a.female:hover, .main.signup .cntnr .gender a.female.active {
+    background-image: url(../img/female-active.png);
+    border: 1px solid #0b9887;
+}
+
+.main.signup .cntnr .gender a:hover {
+    color: #0b9887;
+    border: 1px solid #0b9887;
+}
+
+.main.signup .inputgroup .inputaddon {
+    padding: 15px 16px;
+    float: left;
+    background-color: #e4ebe8;
+    border: 1px solid #dfe6e4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+}
+
+.main.signup .inputgroup input {
+    width: 489px;
+    float: left;
+    border-left: 1px solid #e0e0e0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.inputgroup .fbimg {
+    background-image: url(../img/Facebook.png);
+    height: 18px;
+    width: 18px;
+}
+
+.inputgroup .fbimg.active {
+    background-image: url(../img/facebook-hover.png);
+}
+
+.inputgroup .liimg {
+    background-image: url(../img/Linkedin.png);
+    height: 18px;
+    width: 18px;
+}
+
+.inputgroup .liimg.active {
+    background-image: url(../img/linkedin-hover.png);
+}
+
+.inputgroup .twimg {
+    background-image: url(../img/Twitter.png);
+    height: 18px;
+    width: 18px;
+}
+
+.inputgroup .twimg.active {
+    background-image: url(../img/twitter-hover.png);
+}
+
+.inputgroup .yelpimg {
+    background-image: url(../img/Yelp.png);
+    height: 18px;
+    width: 18px;
+}
+
+.inputgroup .yelpimg.active {
+    background-image: url(../img/yelp-hover.png);
+}
+
+.fr {
+    float: right !important;
+}
+
+.fl {
+    float: left !important;
+}
+
+.main.signup #insurance {
+    min-height: 53px;
+    height: auto;
+    padding-top: 15px;
+    box-shadow: none;
+    border: 1px solid #dfe6e4;
+    background-color: #f7f7f7;
+}
+
+.main.signup #insurance:focus {
+    border-color: #c6ccca;
+}
+
+.main.signup #insurance .input-group {
+    margin-top: -5px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.main.signup #insurance .input-group button {
+    border-color: #dae0dd;
+    background-color: #e9f0ed;
+}
+
+.main.signup #insurance .input-group input {
+    border-color: #dae0dd;
+    padding: 0px 12px;
+    height: 30px;
+    float: left;
+    width: auto;
+    background-color: #e9f0ed;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.main.signup #insurance .input-group .input-group-btn {
+    float: left;
+}
+
+.main.signup #insurance .input-group .input-group-btn button {
+    height: 30px;
+    padding: 0;
+    width: 26px;
+    outline: none;
+    background: -webkit-linear-gradient(#ecf3f1, #e1e8e6);
+    background: -o-linear-gradient(#ecf3f1, #e1e8e6);
+    background: -moz-linear-gradient(#ecf3f1, #e1e8e6);
+    background: linear-gradient(#ecf3f1, #e1e8e6);
+    transition: 0.3s;
+}
+
+.main.signup #insurance .input-group .input-group-btn button:hover, .main.signup #insurance .input-group .input-group-btn button:active {
+    background: -webkit-linear-gradient(#e6edeb, #d6dddb);
+    background: -o-linear-gradient(#e6edeb, #d6dddb);
+    background: -moz-linear-gradient(#e6edeb, #d6dddb);
+    background: linear-gradient(#e6edeb, #d6dddb);
+}
+
+.main.signup #procedures {
+    min-height: 50px;
+    height: auto;
+    padding-top: 9px;
+    box-shadow: none;
+    border: 1px solid #dfe6e4;
+    background-color: #f7f7f7;
+}
+
+.main.signup #procedures:focus {
+    border-color: #c6ccca;
+}
+
+.main.signup #procedures .input-group {
+    float: left;
+    margin-right: 5px;
+}
+
+.main.signup #procedures .input-group button {
+    border-color: #dae0dd;
+    background-color: #e9f0ed;
+}
+
+.main.signup #procedures .input-group input {
+    border-color: #dae0dd;
+    padding: 0px 12px;
+    height: 30px;
+    float: left;
+    width: auto;
+    background-color: #e9f0ed;
+    font-size: 14px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.main.signup #procedures .input-group .input-group-btn {
+    float: left;
+}
+
+.main.signup #procedures .input-group .input-group-btn button, .main.signup #procedures button.addbtn {
+    height: 30px;
+    padding: 0;
+    width: 26px;
+    outline: none;
+    background: -webkit-linear-gradient(#ecf3f1, #e1e8e6);
+    background: -o-linear-gradient(#ecf3f1, #e1e8e6);
+    background: -moz-linear-gradient(#ecf3f1, #e1e8e6);
+    background: linear-gradient(#ecf3f1, #e1e8e6);
+    transition: 0.3s;
+}
+
+.main.signup #procedures button.addbtn {
+    width: 67px;
+    border: 1px solid #e0e0e0;
+}
+
+.main.signup #procedures .input-group .input-group-btn button:hover, .main.signup #procedures .input-group .input-group-btn button:active {
+    background: -webkit-linear-gradient(#e6edeb, #d6dddb);
+    background: -o-linear-gradient(#e6edeb, #d6dddb);
+    background: -moz-linear-gradient(#e6edeb, #d6dddb);
+    background: linear-gradient(#e6edeb, #d6dddb);
+}
+
+.search-doctors .list .listtop {
+    border-bottom: 2px solid #e4edea;
+    margin-bottom: 13px;
+    padding-bottom: 15px;
+    font-family: 'montserratlight';
+}
+
+.search-doctors .list .listtop .oc1, .search-doctors .list .listtop .oc2 {
+    padding-right: 0;
+}
+
+.search-doctors .list .listtop .oc1 span {
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+    color: #959e9b;
+}
+
+.search-doctors .list .listtop .oc3 span {
+    color: #959e9b;
+}
+
+.search-doctors .list .listtop .oc1 select {
+    width: calc(100% - 45px);
+    box-shadow: none;
+    border-color: #e4ebe8;
+    cursor: pointer;
+    background-image: url("../img/dropdown arrow.png");
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.search-doctors .list .listtop .oc2 select {
+    box-shadow: none;
+    cursor: pointer;
+    border-color: #e4ebe8;
+    background-image: url("../img/dropdown arrow.png");
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.search-doctors .list .listtop .oc1 select:focus, .search-doctors .list .listtop .oc2 select:focus {
+    border-color: #d6dad8;
+}
+
+.search-doctors .list .listtop .oc3 {
+    padding-top: 8px;
+    padding-right: 0;
+}
+
+.search-doctors .list .listtop .oc3 img {
+    margin-left: 7px;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text p {
+    color: #959e9b;
+    font-family: "Montserratlight", sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text p span.price {
+    color: #353837;
+    float: right;
+}
+
+.search-doctors .list .doctor-list .info-order {
+    padding: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #edf5f2;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.search-doctors .list .doctor-list .info-order-owned {
+    padding: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #add8e6;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text h1 a {
+    color: #0b9887;
+    text-transform: capitalize;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text h1 a:hover {
+    text-decoration: none;
+    color: #007a66;
+}
+
+.search-doctors .list .doctor-list .info-order .box {
+    padding: 15px 20px;
+    width: 440px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-doctors .list .doctor-list .info-order {
+    width: 440px;
+}
+
+.search-doctors .list .doctor-list .info-order .box.current {
+    padding: 15px 20px;
+    background-color: #f6f8ff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-doctors .list .doctor-list .info-order .box .images {
+    width: 25%;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text h1 {
+    margin-top: 0;
+    color: #0b9887;
+    font-family: "Montserratlight", sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.search-doctors .list .doctor-list .info-order .box .text h2 {
+    color: #353837;
+    font-family: "Montserratlight", sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer {
+    background-color: #ebf2f0;
+    border: 1px solid #e4ebe8;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer.current {
+    /*background-color: #f6f8ff; */
+    background-color: #ebf2f0;
+    border: 1px solid #e4ebe8;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col3 {
+    margin-right: 15px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col1:first-child {
+    color: #0b9887;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col5 {
+    margin-right: 0px;
+    position: relative;
+    left: 110px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col7 {
+    margin-right: 0px;
+    position: relative;
+    left: 0px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col01 {
+    margin-right: 0px;
+    position: relative;
+    left: 115px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col4:first-child {
+    color: #0b9887;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item {
+    color: #353837;
+    font-family: "Montserratlight", sans-serif;
+    font-size: 14px;
+    margin-right: 24px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col1:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col4:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col12 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 85px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col6 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col6:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col3:last-child {
+    margin: 0;
+}
+
+.search-doctors .list .doctor-list .info-order:hover {
+    border: 1px solid #c5d1cd;
+    box-shadow: 0 1px 3px rgba(156, 166, 162, 0.5)
+}
+
+.search-doctors .list .doctor-list .info-order.active {
+    border: 1px solid #0b9887;
+}
+
+.search-orders .right #map .infobox .title {
+    font-size: 16px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col4 {
+    color: #353837;
+    font-family: "Montserratlight", sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.search-doctors .list .doctor-list .info-order .box-footer .item.col6 img:nth-child(2) {
+    margin-left: 10px;
+}
+
+#modalorderdetails {
+    background-color: #edf5f2;
+    min-height: 300px;
+    width: 420px;
+    left: 50%;
+    top: 50%;
+    margin-left: -210px;
+    margin-top: -150px;
+    position: fixed;
+    z-index: 5000;
+    border-radius: 6px;
+    font-family: 'Montserratlight';
+    display: none;
+}
+
+#modalorderdetails .closebtn {
+    margin-right: -26px;
+    margin-top: 1px;
+}
+
+#modalorderdetails .title {
+    font-size: 20px;
+}
+
+#modalorderdetails .title span {
+    padding: 0 6px 1px;
+    border-bottom: 1px solid #d2d9d7;
+}
+
+#modalorderdetails .order-info {
+    padding: 10px 20px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#modalorderdetails .images {
+    width: 22%;
+}
+
+#modalorderdetails .img-holder {
+    padding: 0;
+    background-color: #fff;
+    border: 2px solid #fff;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 1px 0px #888;
+}
+
+#modalorderdetails .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+#modalorderdetails .order-info img.icons {
+    margin-right: 2px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#modalorderdetails .order-info .text {
+    min-height: 80px;
+    width: 300px;
+}
+
+#modalorderdetails .dropoffval, #modalorderdetails .pickupval {
+    color: #007a66;
+}
+
+#modalorderdetails .dropoffvalname, #modalorderdetails .pickupvalname {
+    color: #959e9b;
+}
+
+#modalorderdetails .order-info p {
+    margin: 0;
+}
+
+#modalorderdetails .order-info p.name {
+    font-size: 18px;
+    color: #007a66;
+    text-transform: capitalize;
+}
+
+#modalorderdetails .order-info p.clinic {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #353837;
+}
+
+#modalorderdetails .order-info p.address {
+    font-size: 14px;
+    color: #959e9b;
+    text-transform: capitalize;
+}
+
+#modalorderdetails .dp-info {
+    border-top: 1px solid #f4f9f7;
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 87px;
+}
+
+#modalorderdetails .footer-info {
+    border-top: 2px solid #eef3f1;
+    background-color: #e4ebe8;
+    display: flex;
+    padding: 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#modalorderdetails .dp-info .sidea {
+    padding: 0;
+    border-right: 1px solid #dedcdc;
+    font-size: 14px;
+}
+
+#modalorderdetails .dp-info .sideb {
+    padding: 0;
+    border-left: 1px solid #f4f9f7;
+    font-size: 14px;
+}
+
+#modalorderdetails .footer-info .item.col4 {
+    font-family: "Montserratlight", sans-serif;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+#modalorderdetails .footer-info .item.col4:first-child {
+    /*color: #0b9887;*/
+    margin-left: 10px;
+}
+
+#modalorderdetails .footer-info .item.col6 {
+    margin-right: 40px;
+}
+
+#modalorderdetails .footer-info .item.col5 {
+    margin-right: 15px;
+}
+
+#modalorderdetails .footer-info .item.col4:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#modalorderdetails .footer-info .item.col6 img:nth-child(2) {
+    margin-left: 8px;
+}
+
+#modalorderdetails .footer-info .item.col6:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#modalorderdetails .closebtn {
+    cursor: pointer;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #b1b7b5;
+    font-size: 16px;
+    font-family: 'Montserratlight';
+}
+
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.insuranceoption {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #dfe6e4;
+    margin-top: -1px;
+    display: none;
+}
+
+.insuranceoption li {
+    padding: 10px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.insuranceoption li:hover {
+    background-color: #fcfcfc;
+}
+
+#modalbgw {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 4999;
+    cursor: pointer;
+    display: none;
+}
+
+#modaladdreview, #modaladdreply {
+    width: 500px;
+    height: 548px;
+    position: fixed;
+    background-color: #edf5f2;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -224px;
+    display: none;
+    z-index: 5000;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 2px #777;
+    padding: 40px;
+    font-family: 'Montserratlight';
+}
+
+#modaladdreview .closebtn, #modaladdreply .closebtn {
+    float: right;
+    margin-right: -27px;
+    margin-top: -28px;
+    cursor: pointer;
+}
+
+#modaladdreview .ratings-nav {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-bottom: 3px;
+    margin-top: -5px;
+}
+
+#modaladdreview .ratings span {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/0-star.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    margin-right: 2px;
+    float: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#modaladdreview .ratings span.active {
+    background-image: url(../img/5-star-orange.png);
+}
+
+#modaladdreview .ratings {
+    color: #f98c32;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+#modaladdreview .ratings span:nth-child(5) {
+    margin-right: 20px;
+}
+
+#modaladdreview input, #modaladdreview textarea, #modaladdreply textarea {
+    background-color: #f2faf7;
+    border: 1px solid #d2d9d7;
+    font-family: 'Montserratlight';
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+#modaladdreview .form-group, #modaladdreply .form-group {
+    margin-bottom: 10px;
+}
+
+#modaladdreview input {
+    height: 40px;
+}
+
+#modaladdreview textarea {
+    height: 276px;
+    resize: none;
+    padding-top: 8px;
+    padding-left: 13px;
+}
+
+#modaladdreply textarea {
+    height: 406px;
+    resize: none;
+    padding-top: 8px;
+    padding-left: 13px;
+}
+
+#modaladdreview .checkboximg, #modaladdreply .checkboximg {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/checkbox3.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    cursor: pointer;
+    transition: 0.2s;
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+#modaladdreview .checkboximg.active, #modaladdreply .checkboximg.active {
+    background-image: url(../img/checkbox3-active.png);
+}
+
+#modaladdreview .terms, #modaladdreply .terms {
+    font-family: 'Montserratlight';
+    font-size: 14px;
+    line-height: 18px;
+    color: #959e9b;
+}
+
+#modaladdreview .terms a, #modaladdreply .terms a {
+    color: #0b9887;
+    text-decoration: none;
+}
+
+#modaladdreview button, #modaladdreply button {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-shadow: 0px 1px #098f7d;
+    border-radius: 4px;
+    border: 1px solid #059988;
+    border-bottom-color: #418a81;
+    color: #fff;
+    float: right;
+    text-align: center;
+    width: 140px;
+    height: 42px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    background: #1eb8a5;
+    transition: 0.4s;
+    background: -webkit-linear-gradient(#1eb8a5, #059988);
+    background: -o-linear-gradient(#1eb8a5, #059988);
+    background: -moz-linear-gradient(#1eb8a5, #059988);
+    background: linear-gradient(#1eb8a5, #059988);
+}
+
+#modaladdreview button:hover, #modaladdreply button:hover {
+    background: #1ba594;
+    background: -webkit-linear-gradient(#1ba594, #048475);
+    background: -o-linear-gradient(#1ba594, #048475);
+    background: -moz-linear-gradient(#1ba594, #048475);
+    background: linear-gradient(#1ba594, #048475);
+}
+
+#modalbookappointment {
+    width: 542px;
+    height: 853px;
+    position: fixed;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-left: -271px;
+    margin-top: -428px;
+    display: none;
+    z-index: 5000;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 2px #777;
+    padding: 0 0;
+    font-family: "Montserratlight", sans-serif;
+}
+
+#modalbookappointment .profile-info {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 20px 0 20px;
+    background-color: #3895c0;
+}
+
+#modalbookappointment .profile-info .img-holder {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#modalbookappointment .profile-info .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+#modalbookappointment .profile-info .profile-content {
+    margin-left: 10px;
+}
+
+#modalbookappointment .profile-info .profile-content .name {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#modalbookappointment .profile-info .profile-content .specialty {
+    font-weight: 200;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#modalbookappointment .profile-info .profile-content .total-rating {
+    padding: 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 7px;
+    color: #3795bf;
+    background-color: #fff;
+    top: 5px;
+    position: relative;
+}
+
+
+#modalbookappointment .profile-info .profile-content .address {
+    color: #fff;
+}
+
+#modalbookappointment .profile-info .profile-content .address .fa.fa-map-marker {
+    color: #d35959;
+    font-size: 18px;
+}
+
+#modalbookappointment .header-tabs {
+    background-color: #3894c0;
+}
+
+#modalbookappointment .header-tabs ul li {
+    padding: 0 15px 3px 15px;
+    width: 33%;
+}
+
+#modalbookappointment .header-tabs ul li>a {
+    color: #fff;
+}
+
+#modalbookappointment .header-tabs ul li>a:hover {
+    background-color: #3894c0;
+    border: none;
+}
+
+#modalbookappointment .header-tabs ul li.active>a {
+    background-color: #3894c0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+#modalbookappointment .book-appointment-body {
+    
+}
+
+#modalbookappointment .book-appointment-body .nav-tabs>li {
+    width: 50%;
+}
+
+#modalbookappointment .book-appointment-body .dropdown .btn {
+    color: #3894c0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list {    
+    padding-left: 6px;
+    overflow-y: scroll;
+    max-height: 590px;
+    overflow-x: hidden;
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list .slot {
+    width: 100%; 
+    overflow: hidden; 
+    border: 1px solid #e2e2e2; 
+    padding: 0 5px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list .slot .slot-date {
+    padding: 22px 0; 
+    font-weight: bold; 
+    color: #868686; 
+    font-size: 18px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list .slot .slot-times {
+    padding: 4px 0;
+    border-left: 1px solid #e2e2e2;     
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list .slot .slot-times.less-than-5 {
+    padding: 27px 0 !important;
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list .slot .slot-times .available-slot-time {
+    display: inline-block;
+    border: 1px solid #3696c0;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #3696c0;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-slot-list .slot .slot-times .available-slot-time:hover {
+    color: #fff;
+    background-color: #3696c0;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form {
+    padding: 0 30px;
+    height: 638px;
+    overflow-y: scroll;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .calendar-title {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .calendar-title .fa.fa-calendar,
+#modalbookappointment .book-appointment-body .appointment-info-form .calendar-title .fa.fa-clock-o {
+    color: #3895c0;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .form-group label {
+    color: #898b8e;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .suggestionbox {
+    margin-top: -3px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .tag_group {
+    margin-top: 5px;
+    max-height: 72px;
+    overflow-y: scroll;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .tag_group .item-selected {
+    margin-right: 2px !important;
+    margin-bottom: 2px !important;
+    background-color: #3894c0 !important;
+    padding: 2px 6px !important;
+    font-size: 13px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form textarea {
+    resize: none;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .attached-files {
+    margin-top: 10px;
+    font-size: 16px;
+    max-height: 85px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .attached-files .file{
+    margin-top: 5px
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .attached-files .remove-file{
+    cursor: pointer;
+    color: #ea7373;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .form-footer {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .form-footer .book-appointment-btn button {
+    border-radius: 25px;
+    padding: 10px 50px;
+    color: #3496c1;
+    font-weight: bold; 
+    box-shadow: 1px 1px 7px 0px #bcd2dc;
+}
+
+#modalbookappointment .book-appointment-body .appointment-info-form .form-footer .cancel-btn {
+    margin-top: 10px
+}
+
+#modalbookappointment .book-appointment-body #about {
+    padding: 15px 20px;
+    height: 642px;
+    overflow-y: scroll;
+}
+
+#modalbookappointment .book-appointment-body #about .row {
+    padding: 5px 0;
+}
+
+#modalbookappointment .book-appointment-body #about .row .title{
+    font-size: 20px;
+}
+
+#modalbookappointment .book-appointment-body #about .row .content-paragraph{
+    font-size: 16px;
+}
+
+#modalbookappointment .book-appointment-body #review {
+    max-height: 638px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#modalbookappointment .book-appointment-body .message {
+    background-color: #3895c0;
+    padding: 18px 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.4);
+    transition: transform 0.2s
+}
+
+#modalbookappointment .book-appointment-body .message:hover {
+    transform: scale(1.1);
+}
+
+
+#modalbookappointment .closebtn {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#modalbookappointment .icon {
+    margin-right: 6px;
+}
+
+#modalprofile {
+    width: 542px;
+    height: 853px;
+    position: fixed;
+    background-color: #edf5f2;
+    top: 50%;
+    left: 50%;
+    margin-left: -271px;
+    margin-top: -428px;
+    display: none;
+    z-index: 5000;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 2px #777;
+    padding: 0 30px;
+    font-family: 'Montserratlight';
+}
+
+#modalprofile .closebtn {
+    margin-right: -69px;
+    margin-top: 0;
+    width: 22px;
+    cursor: pointer;
+}
+
+#modalprofile .avatar {
+    border-radius: 100%;
+    padding: 2px;
+    box-shadow: 0 0 5px 2px #ced6d3;
+    width: 110px;
+    margin-top: -3px;
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#modalprofile .name {
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+#modalprofile .clinic {
+    font-size: 16px;
+}
+
+#modalprofile p {
+    font-size: 14px;
+    margin: 0;
+    color: #353837;
+}
+
+#modalprofile .icon {
+    margin-right: 6px;
+}
+
+#modalprofile a {
+    color: #0b9887;
+    text-decoration: none;
+}
+
+#modalprofile .contact a {
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+#modalprofile .contact a:hover {
+    color: #007a66;
+}
+
+#modalprofile .sm {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+    margin-top: 3px;
+}
+
+#modalprofile .sm.fb {
+    background-image: url(../img/Facebook.png);
+}
+
+#modalprofile .sm.li {
+    background-image: url(../img/Linkedin.png);
+}
+
+#modalprofile .sm.tw {
+    background-image: url(../img/Twitter.png);
+}
+
+#modalprofile .sm.yl {
+    background-image: url(../img/Yelp.png);
+}
+
+#modalprofile .sm.fb:hover {
+    background-image: url(../img/facebook-hover.png);
+}
+
+#modalprofile .sm.li:hover {
+    background-image: url(../img/linkedin-hover.png);
+}
+
+#modalprofile .sm.tw:hover {
+    background-image: url(../img/twitter-hover.png);
+}
+
+#modalprofile .sm.yl:hover {
+    background-image: url(../img/yelp-hover.png);
+}
+
+#modalprofile .profile-info2 {
+    margin: 0 -30px;
+}
+
+#modalprofile .profile-info .edit {
+    color: #0b9887;
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: -18px;
+    margin-top: -12px;
+    transition: 0.3s;
+}
+
+#modalprofile .profile-info .edit:hover {
+    color: #007a66;
+}
+
+#modalprofile .profile-info .edit img {
+    margin-left: 2px;
+    margin-top: -2px;
+}
+
+#modalprofile .profile-info2 ul {
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+}
+
+#modalprofile .profile-info2 li.col1:first-child {
+    margin-left: 30px;
+}
+
+#modalprofile .profile-info2 li.col1 {
+    float: left;
+    margin-right: 17px;
+}
+
+#modalprofile .profile-info2.profilelab li.col1:first-child {
+    margin-left: 30px;
+}
+
+#modalprofile .profile-info2.profilelab li.col1 {
+    float: left;
+    margin-right: 35px;
+}
+
+#modalprofile .profile-info2.profilelab li.col1:after {
+    margin-left: 40px;
+}
+
+#modalprofile .profile-info2 li.lastcol:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+    margin-top: 9px;
+}
+
+#modalprofile .forProcedures {
+    height: 145px;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    overflow-y: scroll;
+}
+
+#modalprofile .forProcedures table {
+    width: 100%;
+}
+
+#modalprofile .forProcedures table tr td:first-child {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#modalprofile .forProcedures td {
+    padding-left: 15px;
+}
+
+#modalprofile .forProcedures tr {
+    border-bottom: 1px solid #e4ebe9;
+}
+
+#modalprofile .forProcedures tr.colbg {
+    background-color: #edf5f3;
+}
+
+#modalprofile .profile-info2 li.lastcol {
+    margin: 0;
+    content: none;
+    float: right;
+    margin-right: 30px;
+}
+
+#modalprofile .profile-info2 li.lastcol span {
+    float: left;
+}
+
+#modalprofile .profile-info2 li.col1:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ccd9d4;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+
+#modalprofile .aboutsection {
+    margin: 0 -30px;
+    min-height: 190px;
+    background-color: #fff;
+}
+
+#modalprofile .aboutsection ul {
+    font-family: 'Montserrat';
+    list-style: none;
+    border-bottom: 1px solid #dae0de;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+#modalprofile .aboutsection li {
+    float: left;
+    padding: 10px 10px 8px;
+    cursor: pointer;
+    color: #959e9b;
+    transition: color 0.3s;
+}
+
+#modalprofile .aboutsection li:hover {
+    color: #007a66;
+}
+
+#modalprofile .aboutsection li.active {
+    color: #007a66;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #007a66;
+}
+
+#modalprofile .aboutsection li.disabled {
+    color: #959e9b !important;
+    cursor: default;
+}
+
+#modalprofile .aboutsection li.fprofile-info2 {
+    color: #00a14b;
+}
+
+#modalprofile .aboutsection .certified {
+    color: #00a14b;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#modalprofile .aboutsection p {
+    margin: 0 10px 5px;
+    font-size: 16px;
+    max-height: 150px;
+    overflow-x: scroll;
+}
+
+#modalprofile .review-section .icon {
+    float: left;
+    margin-top: 2px;
+}
+
+#modalprofile .review-section span {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+#modalprofile .review-section a {
+    color: #0b9887;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#modalprofile .review-section a:hover {
+    color: #007a66;
+}
+
+#modalprofile .reviews {
+    overflow-y: scroll;
+    background-color: #fff;
+    margin: 0 -30px;
+    height: 364px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#modalprofile .reviews .review-item {
+    padding: 10px 30px;
+    border-bottom: 1px solid #dae0de;
+    cursor: default;
+}
+
+#modalprofile .reviews .review-item:hover, #modalprofile .reviews .review-item.active {
+    background-color: #edf5f3;
+}
+
+#modalprofile .reviews .review-item .rhead img {
+    margin-right: 4px;
+    float: left;
+    width: 14px;
+    margin-top: 2px;
+}
+
+#modalprofile .reviews .review-item .rhead .name {
+    margin-left: 6px;
+    font-family: "Montserratlight";
+    font-size: 14px;
+    color: #959e9b;
+    float: left;
+}
+
+#modalprofile .reviews .review-item .rhead .reply {
+    cursor: pointer;
+    margin: 0 -10px 0 50px;
+    font-family: "Montserratlight";
+    font-size: 14px;
+    color: #0b9887;
+    display: none;
+}
+
+#modalprofile .reviews .review-item .rhead .name span {
+    font-size: 12px;
+}
+
+#modalprofile .reviews .review-item .rbody, #modalprofile .reviews .review-item .rbody2 {
+    font-family: 'Montserratlight';
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#modalprofile .reviews .review-item .rbody2 {
+    display: none;
+}
+
+#modalprofile .reviews .review-item .rbody a {
+    color: #0b9887;
+    transition: 0.3s;
+}
+
+#modalprofile .reviews .review-item .rbody a:hover {
+    color: #007a66;
+}
+
+#modalprofile .reviews .review-item .rbody2 a {
+    float: right;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+#modalprofile .reviews .review-item .rbody2 .response-item {
+    margin-top: 4px;
+    margin-left: 22px;
+}
+
+#modalprofile .reviews .review-item .rbody2 .response-item .responder {
+    color: #aeb6b4;
+}
+
+#modalprofile .reviews .review-item .rbody2 .response-item .response {
+    border-left: 3px solid #d2d9d7;
+    padding-left: 8px;
+    margin-top: 6px;
+    line-height: 18px;
+}
+
+#modalprofile .reviews .review-item .rbody2 .response-item .responder img {
+    margin-top: -3px;
+    margin-right: 4px;
+}
+
+#modalprofile .aboutsection .divs {
+    display: none;
+}
+
+#modalprofile .aboutsection .divs.forAbout {
+    display: block;
+    padding: 0 20px;
+    min-height: 95px;
+}
+
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 55px;
+    cursor: pointer;
+    background-image: url('/img/carousel-right-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 18px center;
+    overflow: hidden;
+}
+
+.jssora03l {
+    background-image: url('/img/carousel-left-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 3px center;
+}
+
+#slides div {
+    cursor: pointer;
+}
+
+#slides div img {
+    border: 1px solid #dfe6e3;
+    border-radius: 2px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+#slides div p {
+    transition: 0.3s;
+    text-align: center;
+    margin: 65px 0 0 !important;
+    color: #959e9b;
+}
+
+#slides2 div img {
+    border: 1px solid #dfe6e3;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#modaledithead {
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserratlight';
+    background-color: #353837;
+    height: 60px;
+    z-index: 11;
+    display: none;
+}
+
+#modaledithead .tainer {
+    width: 650px;
+    margin: 0 auto;
+}
+
+#modaledithead .tainer p, #modaledithead .tainer button {
+    float: left;
+}
+
+#modaledithead button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    border: 0;
+    margin-top: -5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+#modaledithead button.cancel {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 100px;
+    height: 31px;
+    color: #959e9b;
+    background: #e9eeec;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e9eeec, #e1e4e3);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e9eeec, #e1e4e3);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e9eeec, #e1e4e3);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e9eeec, #e1e4e3);
+    /* Standard syntax (must be last) */
+    transition: 0.3s;
+}
+
+#modaledithead button.cancel:hover {
+    color: #007a66;
+    background: #dfe3e1;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dfe3e1, #c7cdcb);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dfe3e1, #c7cdcb);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dfe3e1, #c7cdcb);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dfe3e1, #c7cdcb);
+    /* Standard syntax (must be last) */
+}
+
+#modaledithead button.save {
+    width: 132px;
+    height: 31px;
+    color: #fff;
+    background: #2abbaa;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2abbaa, #079988);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2abbaa, #079988);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2abbaa, #079988);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2abbaa, #079988);
+    /* Standard syntax (must be last) */
+    transition: 0.3s;
+}
+
+#modaledithead button.save:hover {
+    background: #32aa9c;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#32aa9c, #0a8d7d);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#32aa9c, #0a8d7d);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#32aa9c, #0a8d7d);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#32aa9c, #0a8d7d);
+    /* Standard syntax (must be last) */
+}
+
+#modaleditbox {
+    position: fixed;
+    width: 568px;
+    font-size: 16px;
+    font-family: 'Montserratlight';
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #dae0de;
+    box-shadow: 0 0 2px 2px #dae0de;
+    height: 900px;
+    left: 50%;
+    top: 50%;
+    margin-left: -284px;
+    margin-top: -365px;
+    z-index: 11;
+    display: none;
+    padding: 20px 30px;
+}
+
+#modaleditbox .aboutsection li {
+    float: left;
+    padding: 10px 10px 8px;
+    cursor: pointer;
+    color: #959e9b;
+    transition: color 0.3s;
+}
+
+#modaleditbox .aboutsection li:hover {
+    color: #007a66;
+}
+
+#modaleditbox .aboutsection li.active {
+    color: #007a66;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #007a66;
+}
+
+#modaleditbox .aboutsection li.fprofile-info2 {
+    color: #00a14b;
+}
+
+#modaleditbox .inputgroup .inputaddon {
+    padding: 8px 8px;
+    float: left;
+    background-color: #e4ebe8;
+    border: 1px solid #dfe6e4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+}
+
+#modaleditbox .inputgroup input {
+    width: 471px;
+    float: left;
+    border-left: 1px solid #e0e0e0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#modaleditbox .tar {
+    color: #b3b9b7;
+    margin: 0 30px;
+    font-size: 14px;
+    font-family: 'Montserratlight';
+}
+
+#modaleditbox .avatar {
+    border-radius: 100%;
+    padding: 1px;
+    box-shadow: 0 0 2px 2px #ced6d3;
+    width: 110px;
+    margin-top: -3px;
+    margin-left: 1px;
+}
+
+#modaleditbox .contactinfo {
+    width: 380px;
+    float: left;
+}
+
+#modaleditbox .aboutsection li.fr {
+    margin-right: 20px;
+}
+
+#modaleditbox .contactinfo input {
+    width: 380px;
+    height: 36px;
+    font-size: 14px;
+    border: 1px solid #dfe6e4;
+    border-radius: 3px;
+    padding: 13px 10px;
+    margin-bottom: 8px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+#modaleditbox .contactinfo input[name=aptsuite] {
+    width: 140px;
+    margin-right: 8px;
+    float: left;
+}
+
+#modaleditbox .contactinfo input[name=phone] {
+    width: 232px;
+}
+
+#modaleditbox .avatarbox {
+    margin-right: 15px;
+    float: left;
+}
+
+#modaleditbox .replace {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #959e9b;
+    cursor: pointer;
+}
+
+#modaleditbox .replace:hover {
+    color: #007a66;
+}
+
+#modaleditbox .midsection .certified {
+    color: #00a14b;
+    font-family: 'Montserratlight';
+    font-size: 14px;
+    height: 20px;
+}
+
+#modaleditbox .midsection {
+    font-size: 14px;
+    color: #959e9b;
+}
+
+#modaleditbox .midsection select {
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+    height: 36px;
+    padding-left: 5px;
+    box-shadow: none;
+}
+
+#modaleditbox .midsection input {
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+    height: 36px;
+    padding-left: 5px;
+    box-shadow: none;
+}
+
+#modaleditbox .gender a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dae0de;
+    border-radius: 6px;
+    background: none;
+    outline: none;
+    transition: 0.6s all;
+    cursor: pointer;
+    float: left;
+}
+
+#modaleditbox .gender a:first-child {
+    margin-right: 5px;
+}
+
+#modaleditbox .gender a.male {
+    background: url(../img/male-icon.png) no-repeat;
+    background-position: 50% 50%;
+}
+
+#modaleditbox .gender a.male:hover, #modaleditbox .gender a.male.active {
+    background-image: url(../img/male-active.png);
+    border: 1px solid #0b9887;
+}
+
+#modaleditbox .gender a.female {
+    background: url(../img/female-icon.png) no-repeat;
+    background-position: 50% 50%;
+}
+
+#modaleditbox .gender a.female:hover, #modaleditbox .gender a.female.active {
+    background-image: url(../img/female-active.png);
+    border: 1px solid #0b9887;
+}
+
+#modaleditbox .gender a:hover {
+    color: #0b9887;
+    border: 1px solid #0b9887;
+}
+
+#modaleditbox input, #modaleditbox select {
+    transition: 0.3s;
+}
+
+#modaleditbox input:focus, #modaleditbox select:focus {
+    border-color: #c6ccca;
+}
+
+#modaleditbox .webmedia input {
+    box-shadow: none;
+    outline: none;
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+    transition: 0.3s;
+    margin-top: 8px;
+    height: 36px;
+}
+
+#modaleditbox .webmedia input:focus {
+    border-color: #c6ccca;
+}
+
+#modaleditbox .webmedia .inputgroup .inputaddon {
+    padding: 8px 10px;
+    float: left;
+    background-color: #e4ebe8;
+    border: 1px solid #dfe6e4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+}
+
+#modaleditbox .webmedia .inputgroup input {
+    width: 467px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#modaleditbox .aboutsection {
+    margin: 0 -30px;
+}
+
+#modaleditbox .aboutsection ul {
+    font-family: 'Montserrat';
+    list-style: none;
+    border-bottom: 1px solid #dae0de;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+#modaleditbox .aboutsection li {
+    float: left;
+    padding: 10px 10px 8px;
+    cursor: pointer;
+    color: #959e9b;
+    transition: color 0.3s;
+}
+
+#modaleditbox .aboutsection li.active {
+    color: #007a66;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #007a66;
+}
+
+#modaleditbox textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #dfe6e4;
+    border-radius: 4px;
+    padding: 12px;
+    transition: 0.3s;
+    margin: 0 30px;
+    width: 507px;
+    height: 155px;
+    resize: none;
+    font-size: 14px;
+    font-family: 'Montserratlight';
+    outline: none;
+}
+
+#modaleditbox textarea:focus {
+    border-color: #c6ccca;
+}
+
+#modaleditbox .charleft {
+    color: #959e9b;
+    font-size: 14px;
+    font-family: 'Montserratlight';
+    text-align: right;
+    margin: 0 30px;
+    width: 507px;
+}
+
+.search-doctors u {
+    text-decoration: none;
+}
+
+.search-box #searchoption {
+    width: 420px;
+}
+
+#searchoption {
+    display: none;
+    position: absolute;
+    width: 540px;
+    line-height: initial;
+}
+
+#searchoption ul {
+    width: 100%;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+#searchoption li {
+    cursor: pointer;
+}
+
+#searchoption li.nav {
+    background-color: #296e7d;
+    color: #8db2ba;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 0 3px 30px;
+    height: 24px;
+}
+
+#searchoption li.item {
+    background-color: #388493;
+    border-bottom: 1px solid #609da9;
+    color: #eef4f6;
+    font-family: 'Montserratlight';
+    padding: 5px 0 5px 40px;
+    transition: 0.1s;
+    height: 31px;
+}
+
+#searchoption li.item:hover {
+    background-color: #438a98;
+}
+
+.iw-content span:first-child {
+    font-family: 'Montserratlight';
+    font-size: 14px;
+    color: #d2401d;
+}
+
+.iw-content span:last-child {
+    font-family: 'Montserratlight';
+    font-size: 13px;
+}
+
+.vdivider {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.vdivider:before {
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: #e6e6e6;
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.75);
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+.deliveryicon {
+    height: 50px;
+    padding-top: 3px;
+    padding-right: 10px;
+    float: left;
+}
+
+#modalpayment {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    z-index: 5000;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: none;
+}
+
+#modalpayment .closebtn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#modaladdpaymentmethod {
+    width: 600px;
+    height: 436px;
+    margin-left: -300px;
+    margin-top: -218px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    z-index: 5000;
+    border-radius: 3px;
+    background-color: #fff;
+    display: none;
+}
+
+#modaladdpaymentmethod .nav-title {
+    background-color: #4993d2;
+    height: 60px;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#modaladdpaymentmethod .nav-title h1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#modaladdpaymentmethod .nav-title .closebtn {
+    padding: 14px;
+    cursor: pointer;
+}
+
+#modaladdpaymentmethod .body-content {
+    padding: 20px 40px;
+}
+
+#modaladdpaymentmethod .body-content p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: #959e9b;
+    margin-bottom: 5px;
+}
+
+#modaladdpaymentmethod .body-content span {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #353837;
+    font-weight: bold;
+}
+
+#modaladdpaymentmethod form img {
+    margin-right: 10px;
+}
+
+#modaladdpaymentmethod .cc-input {
+    padding-bottom: 12px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #959e9b;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #dae0de;
+}
+
+#modaladdpaymentmethod .cc-input-no-capital {
+    padding-bottom: 12px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #959e9b;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #dae0de;
+    text-transform: none;
+}
+
+#modaladdpaymentmethod input[name=card_name], #modaladdpaymentmethod input[name=billing_address] {
+    width: 489px;
+}
+
+#modaladdpaymentmethod input[name=card_num] {
+    width: 286px;
+}
+
+#modaladdpaymentmethod input[name=card_month], #modaladdpaymentmethod input[name=card_year], #modaladdpaymentmethod input[name=card_cvc] {
+    width: 46px;
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+#modaladdpaymentmethod input[name=card_cvc] {
+    width: 80px;
+    margin-left: 6px;
+}
+
+#modaladdpaymentmethod .cc-checkbox input {
+    display: none;
+}
+
+#modaladdpaymentmethod .cc-checkbox .checkboximg {
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/checkbox2.png);
+    cursor: pointer;
+    margin-top: 2px;
+    margin-right: 7px;
+    float: left;
+}
+
+#modaladdpaymentmethod .cc-checkbox .checkboximg.active {
+    background-image: url(../img/checkbox2-active.png);
+}
+
+#modaladdpaymentmethod .cc-checkbox span {
+    color: #959e9b;
+}
+
+#modaladdpaymentmethod .cc-checkbox a {
+    color: #353837;
+}
+
+#modaladdpaymentmethod input[name=cc-add] {
+    float: right;
+    width: 120px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #059988;
+    border-radius: 4px;
+    background: #36b9aa;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#36b9aa, #079988);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#36b9aa, #079988);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#36b9aa, #079988);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#36b9aa, #079988);
+    /* Standard syntax */
+    margin-top: -40px;
+}
+
+#modaladdpaymentmethod input[name=cc-back] {
+    float: right;
+    width: 120px;
+    height: 50px;
+    margin-left: 5px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-top: -40px;
+    color: #959e9b;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+    transition: 0.2s;
+}
+
+#modalconfirmorder {
+    width: 600px;
+    height: auto;
+    margin-left: -300px;
+    margin-top: -276px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    z-index: 5000;
+    border-radius: 3px;
+    background-color: #fff;
+    display: none;
+}
+
+#modalconfirmorder .name {
+    text-transform: capitalize;
+}
+
+#modalconfirmorder .nav-title {
+    background-color: #4993d2;
+    height: 60px;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#modalconfirmorder .nav-title h1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#modalconfirmorder .nav-title .closebtn {
+    padding: 14px;
+    cursor: pointer;
+}
+
+#modalconfirmorder .body-content {
+    padding: 20px 40px;
+}
+
+#modalconfirmorder .body-content h2 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #959e9b;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4ebe8;
+    margin: 0;
+}
+
+#modalconfirmorder .body-content h2 a {
+    color: #0b9887;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#modalconfirmorder .body-content h2 a:hover {
+    color: #007a66;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+#modalconfirmorder .h3 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #353837;
+}
+
+#modalconfirmorder .h4 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #959e9b;
+    margin-left: 32px;
+}
+
+#modalconfirmorder .h5 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #353837;
+    margin-left: 32px;
+}
+
+#modalconfirmorder .schedbox {
+    width: 288px;
+    height: 70px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid #e0e0e0;
+    background-color: #edf5f3;
+    float: left;
+    padding: 25px 18px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    position: relative;
+}
+
+#modalconfirmorder .schedbox img {
+    vertical-align: top;
+}
+
+#modalconfirmorder .schedbox img:nth-child(2) {
+    margin-left: 20px;
+}
+
+#modalconfirmorder .pricebox {
+    background-color: #edf5f3;
+    width: 230px;
+    height: 70px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #ffffff;
+    float: left;
+    padding: 25px 18px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+#modalconfirmorder .pricebox img {
+    vertical-align: top;
+}
+
+#modalconfirmorder .pricebox span {
+    color: #007a66;
+}
+
+#modalconfirmorder .borderbox {
+    border: 1px solid #dfe6e4;
+    border-radius: 5px;
+}
+
+#modalconfirmorder .buttonarea button {
+    width: 124px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+    transition: 0.2s;
+}
+
+#modalconfirmorder .buttonarea {
+    text-align: center;
+}
+
+#modalconfirmorder .buttonarea button[name=cancel] {
+    color: #959e9b;
+    border: 1px solid #bfbfbf;
+}
+
+#modalconfirmorder .buttonarea button[name=cancel]:hover {
+    border-color: #0b9887;
+    color: #007a66;
+}
+
+#modalconfirmorder .buttonarea button[name=edit] {
+    color: #737373;
+    border: 1px solid #05a894;
+    margin: 0 26px;
+}
+
+#modalconfirmorder .buttonarea button[name=edit]:hover {
+    color: #007a66;
+    border-color: #05a894;
+}
+
+#modalconfirmorder .buttonarea button[name=place] {
+    color: #fff;
+    border: 1px solid #059988;
+    background: #29bbaa;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#29bbaa, #079988);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#29bbaa, #079988);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#29bbaa, #079988);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#29bbaa, #079988);
+    /* Standard syntax */
+}
+
+#modalconfirmorder .buttonarea button[name=place]:hover {
+    color: #fff;
+    border: 1px solid #059988;
+    background: #29b0a0;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#29b0a0, #0a8d7e);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#29b0a0, #0a8d7e);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#29b0a0, #0a8d7e);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#29b0a0, #0a8d7e);
+    /* Standard syntax */
+}
+
+#modalconfirmorder .packinfo {
+    text-decoration: none !important;
+}
+
+#modalconfirmorder .dropoff-section, #modalconfirmorder .pickup-section {
+    display: none;
+}
+
+#modaladdpaymentmethod .body-content p.error {
+    font-weight: normal;
+    color: #f00;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.doctor-list .img-holder {
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 1px 0px #888;
+}
+
+.doctor-list .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+#modalsettings {
+    background-color: #fff;
+    height: 700px;
+    width: 540px;
+    left: 50%;
+    top: 0;
+    margin-left: -270px;
+    margin-top: 15px;
+    position: fixed;
+    z-index: 5000;
+    border-radius: 6px;
+    font-family: 'Montserratlight';
+    transition: 0.3s;
+    display: none;
+}
+
+#modalsettings .closebtn {
+    margin-right: -31px;
+    margin-top: 1px;
+}
+
+#modalsettings .tabs {
+    width: 50%;
+    float: left;
+    height: 59px;
+    border-bottom: 1px solid #dcdfde;
+    cursor: pointer;
+    color: #959e9b;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #edf5f2;
+    transition: 0.3s;
+}
+
+#modalsettings .tabs img {
+    margin-top: -8px;
+    margin-right: 4px;
+}
+
+#modalsettings .tab-left {
+    border-top-left-radius: 6px;
+}
+
+#modalsettings .tab-right {
+    border-top-right-radius: 6px;
+    border-left: 1px solid #dcdfde;
+}
+
+#modalsettings .tab-right.active {
+    background-color: #fff;
+    border-bottom: 1px solid #f9fafa;
+    color: #0b9887 !important;
+}
+
+#modalsettings .tab-left.active {
+    background-color: #fff;
+    border-bottom: 1px solid #f9fafa;
+    color: #0b9887 !important;
+}
+
+#modalsettings .formbox {
+    padding: 28px 30px 30px;
+}
+
+#modalsettings #logininfo {
+    overflow-y: scroll;
+    height: calc(100% - 60px);
+}
+
+#modalsettings #logininfo input {
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 11px !important;
+    border: 1px solid #e0e0e0;
+    color: #353837;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    height: 50px;
+    transition: 0.3s;
+    text-transform: lowercase;
+}
+
+#modalsettings #logininfo input:focus {
+    border-color: #c6ccca;
+}
+
+#modalsettings #logininfo input[type=button], #modalsettings #paymentinfo input[type=button] {
+    width: 160px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid #dae0de;
+    color: #0b9887;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 1px 1px 0px #dedede;
+    border-radius: 3px;
+}
+
+#modalsettings #logininfo input[type=button]:hover, #modalsettings #logininfo input[type=button]:focus, #modalsettings #paymentinfo input[type=button]:hover, #modalsettings #paymentinfo input[type=button]:focus {
+    border-color: #0b9887;
+}
+
+#paymentinfo {
+    display: none;
+}
+
+#paymentinfo input {
+    padding: 0 0 8px;
+    border: 0;
+    border-bottom: 1px solid #dae0de;
+    height: 28px;
+    outline: none;
+    transition: 0.3s;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+#paymentinfo input:focus {
+    border-bottom: 1px solid #959e9b;
+}
+
+#paymentinfo input[name=card_num] {
+    width: 250px;
+    margin-right: 5px;
+}
+
+#paymentinfo input[name=card_month], #paymentinfo input[name=card_year] {
+    width: 46px;
+    margin-right: 5px;
+}
+
+#paymentinfo input[name=card_cvc] {
+    width: 80px;
+}
+
+#paymentinfo input[name=card_name], #paymentinfo input[name=billing_address] {
+    width: 450px;
+}
+
+#paymentinfo img {
+    margin-right: 8px;
+}
+
+nav .account a {
+    cursor: pointer;
+}
+
+.closebtn {
+    cursor: pointer;
+}
+
+#map .deliverybox {
+    font-family: 'Montserratlight';
+    font-size: 16px;
+}
+
+#landingPage-AutoCompleteResultsStyle li.item {
+    text-transform: capitalize;
+}
+
+.insusug {
+    left: 522px;
+    display: none;
+    position: absolute;
+    width: 297px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+    margin-top: -40px;
+    text-align: left;
+    margin-right: -121px;
+}
+
+#insusug ol {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.insusug li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: 0.2s;
+    text-transform: lowercase;
+}
+
+.insusug li strong {
+    color: #579ea2;
+}
+
+.insusug li:hover {
+    background-color: #fafafa;
+}
+
+#newBioSearchBox {
+    width: 300px;
+    float: left;
+    /*p text-transform: capitalize; */
+}
+
+#searchform .form-group .errormsg{
+  float: left;
+  margin-top: 0%;
+  margin-left: 2%;
+  color: #D8000C;
+  font-weight: bold;
+}
+
+#newBioSearchBox::placeholder {
+    color: gray !important;
+    font-weight: 700
+}
+
+#insuranceplan {
+    width: 250px;
+    float: left;
+    margin-left: 15px;
+    background-color: #fafafa;
+    height: 60px;
+    border: 1px solid #959e9b;
+    border-radius: 5px;
+    box-shadow: inset 0.7px 0.7px 1px #6dc2bc, 0 2px 2px rgba(87, 163, 162, 0.5);
+    color: #959e9b;
+    font-family: 'Montserratlight', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 20px;
+    outline: none;
+}
+input.datepicker {
+    background-color: #fafafa;
+    height: 60px;
+    font-family: 'Montserratlight', sans-serif;
+    color: #959e9b;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #959e9b;
+    border-radius: 5px;
+    box-shadow: inset 0.7px 0.7px 1px #6dc2bc, 0 2px 2px rgba(87, 163, 162, 0.5);
+}
+input.datepicker::placeholder {
+    color: gray;
+    font-weight: 700
+}
+#insuranceplan::placeholder {
+    
+}
+
+#languages {
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fafafa;
+    height: 60px;
+    border: 1px solid #959e9b;
+    border-radius: 5px;
+    box-shadow: inset 0.7px 0.7px 1px #6dc2bc, 0 2px 2px rgba(87, 163, 162, 0.5);
+    color: #959e9b;
+    font-family: 'Montserratlight', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 20px;
+    outline: none;
+}
+
+#languages::placeholder {
+    
+}
+.back2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+}
+.g-icon {
+    padding: 10px 20px;
+    border: 1px solid #00a14b;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 5px;
+    transition: all 400ms;
+}
+
+.g-icon.on {
+    background-color: #00a14b;
+    outline: none
+}
+
+.g-icon:hover:not(.on) {
+    color: #00a14b;
+    border-color: white
+}
+
+#searchbtnCon {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#searchbtn {
+    height: 60px;
+    margin-left: 20px;
+}
+
+.suggestionbox {
+    display: none;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #c6ccca;
+    margin: -20px 0 0;
+    position: absolute;
+    z-index: 9;
+    max-height: 350px;
+    overflow-y: auto;
+    font-family: 'Montserratlight';
+    font-size: 13px;
+}
+
+.suggestionbox.procedure {
+    margin: -2px 0 0;
+}
+
+.suggestionbox li {
+    transition: 0.3s;
+    background-color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.suggestionbox li:hover, .suggestionbox li.active {
+    /*background-color: #fafafa;*/
+    background-color: #ccc;
+}
+
+.policy-holder-info {
+    display: none;
+}
+
+.optional-color {
+    color: #a3aba8;
+}
+
+.invi {
+    display: none !important;
+}
+
+#searchform input[name=qval], #searchform input[name=ins] {
+}
+
+nav .account .img-holder {
+    padding: 0;
+    background-color: #fff;
+    border: 2px solid #fff;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 1px 0px #888;
+    position: relative;
+    top: 17px;
+    left: -3px;
+}
+
+nav .account .img-holder img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+nav .account {
+    width: 70px;
+    margin-top: -7px;
+    margin-left: 8px;
+}
+
+nav .account img.arrow {
+    float: left;
+    margin-left: 51px;
+    margin-top: -8px;
+}
+
+nav .account ul img.arrow {
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.tag_group .item-selected {
+    float: left;
+    background-color: #0b9887;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tag_group .removedAfterSymptom {
+    float: left;
+    background-color: #96c649;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tag_group .item-selected img {
+    cursor: pointer;
+}
+
+#selected_procedure_group .item-selected {
+    cursor: pointer;
+}
+
+.patients-list .address-align img {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#modalsettings #logininfo input.error, #modalsettings #paymentinfo input.error {
+    border-color: #f00;
+}
+
+.address-icon {
+    float: left;
+    margin-bottom: 20px !important;
+    margin-top: 2px !important;
+    margin-right: 5px !important;
+}
+
+.search-orders table h1, .patients-list .name, .box-footer .specialty, #modalprofile .name {
+    text-transform: capitalize;
+}
+
+.pullright {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+    text-align: right;
+}
+.pullright .fa {
+    margin-left: 5px;
+}
+
+.pullright-rx {
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    right: 28px;
+}
+
+.pullright-rx a {
+    padding-left: 10px;
+}
+
+.dropoffcount, .pickupcount {
+    margin-right: 5px;
+}
+
+.clear {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+  .rx-list table.patients-list tr {
+      float: left;
+      margin-right: 10px;
+  }
+
+  .doctor-list table.patients-list tr {
+      float: left;
+      margin-right: 10px;
+  }
+  */
+
+.forlab table tr td {
+    text-align: left;
+}
+
+#otherpayment label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#otherpayment {
+    font-family: 'Montserrat';
+}
+
+#otherpayment .ccinput {
+    padding-bottom: 12px;
+    font-size: 16px;
+    color: #000;
+    border: 0;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#otherpayment .ccinput.form-control {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dae0de;
+    -webkit-box-shadow: none;
+}
+
+.row#otherpayment {
+    margin: 0px;
+}
+
+span.menu {
+    color: #959e9b;
+    margin-left: 10px;
+}
+
+span.tax_and_fee, span.total {
+    color: #959e9b;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.text-label {
+    margin-top: 10px;
+}
+
+.larger {
+    font-size: 25px;
+    text-align: center;
+    color: #959e9b;
+    margin-top: 10px;
+}
+
+.ccnav {
+    margin-bottom: 22px;
+}
+
+#otherpayment input.form-control, #otherpayment textarea.form-control {
+    text-transform: uppercase;
+}
+
+#formpaymentinfo input {
+    text-transform: uppercase;
+}
+
+.btn-place {
+    color: white;
+    background-color: #0b9d8c;
+    border-color: #059988;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    background: #79A70A;
+    background: linear-gradient(#32b6a7 0%, #099887 100%);
+    box-shadow: 1px #07665b;
+    width: 180px;
+    padding: 10px;
+    margin-top: 12px;
+    transition: 0.2s;
+}
+
+.btn-place:hover {
+    background: linear-gradient(#2aa697 0%, #089081 100%);
+    color: #fff;
+}
+
+.clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+#bgvid {
+    display: inline-block;
+}
+
+.main {
+    background-color: transparent;
+    height: calc(100% - 60px);
+}
+
+.search-doctors .wrap .left {
+    width: 100%;
+}
+
+.search-doctors .right #map {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .search-doctors .right #map {
+        display: block;
+    }
+    .height-fix {
+        height: 100%;
+    }
+    .search-doctors .wrap .left {
+        width: 500px;
+    }
+}
+
+.rx-form-close {
+    font-family: 'Montserratlight' !important;
+    font-size: 30px;
+    color: #ccc;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+
+#avatar-input {
+    margin: 29px 0 5px;
+    height: auto;
+    padding: 8px;
+}
+
+.emptyimg {
+    width: 100px;
+    height: 100px;
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.emptyimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#image-crop {
+    width: 100%;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.upload-picture .col-md-3 {
+    padding-left: 0 !important;
+}
+
+.red-text {
+    color: red;
+}
+
+.rating { 
+    border: none;
+    float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+    margin: 2.5px;
+    font-size: 1.35em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before { 
+    content: "\f089";
+    position: absolute;
+}
+
+.rating > label { 
+    color: #ddd; 
+    float: right; 
+}
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating.editable:not(:checked) > label:hover, /* hover current star */
+.rating.editable:not(:checked) > label:hover ~ label { color: #eab759;  } /* hover previous stars in list */
+
+.rating.editable > input:checked + label:hover, /* hover current star when changing rating */
+.rating.editable > input:checked ~ label:hover,
+.rating.editable > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating.editable > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+.text-bold {
+    font-weight: bold;
+}
+
+.info-text {
+    text-decoration: underline;
+    color: #2d7698;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#upcoming-appointments hr, #previous-appointments hr{
+    width: 600px;
+}
+
+#patient-appointments .appointment-list {    
+    width: 600px;
+    margin: 0 auto;
+}
+
+#patient-appointments .appointment-list .appointment {
+    width: 100%; 
+    overflow: hidden; 
+    border: none;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+
+#patient-appointments .appointment-list .appointment .appointment-date {
+    padding: 28px 0; 
+    font-weight: bold; 
+    color: #3496c1; 
+    font-size: 18px;
+}
+
+#patient-appointments .appointment-list .appointment .appointment-content {
+    padding: 20px 15px;
+}
+
+#patient-appointments .appointment-list .appointment .appointment-content .doctor-name {    
+    color: #3496c1;
+    font-size: 16px;
+}
+
+#patient-appointments .appointment-list .appointment .appointment-content span {    
+    display: block;
+}
+
+
+#patient-appointments .appointment-list .appointment .appointment-info {  
+    padding: 23px 15px;
+    border-left: 1px solid #e2e2e2;  
+    
+}
+
+#patient-appointments .appointment-list .appointment .appointment-info .img-holder {    
+    padding: 0;
+    background-color: #fff;
+    border: 2px solid #fff;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 1px 0px #888;
+}
+
+#patient-appointments .appointment-list .appointment .detail-toggle {    
+    width: 100%;
+    padding: 0;
+    height: 22px;
+    background-color: #dedede;
+    cursor: pointer;
+    color: #7d7d7d;
+    border-top: 1px solid #d2d1d1;
+}
+
+#patient-appointments .appointment-list .appointment .detail-toggle:hover {    
+    background-color: #aba9a9;
+}
+
+#patient-appointments .appointment-list .appointment .appointment-details {
+    border-top: 1px solid #d2d1d1;
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+#patient-appointments .appointment-list .appointment .appointment-details.open {
+    width: 100%;
+    padding: 15px;
+    opacity: 1;
+    height: 100%;
+}
+
+#patient-appointments .appointment-list .appointment .appointment-details .appointment-symptom { 
+    background-color: #337ab7;
+    border-radius: 3px;
+    padding: 1px 5px;
+    display: inline-block;
+    color: #fff;
+    margin-right: 3px;
+    font-weight: 100;
+}
+
+#appointment-patients {
+    font-family: "Montserratlight", sans-serif;
+    background-color: #f9f9f9;
+}
+
+.no-margin {
+    margin: 0!important;
+}

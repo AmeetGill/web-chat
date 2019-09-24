@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../src/coreChatCSS/main.css"> -->
+    <!-- <link rel="stylesheet" href="../src/coreChatCSS/custom.css"> -->
+   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Quicksand" rel="stylesheet">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script> -->
+    <title>web-chat</title>
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #root {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .circle-my-avatar {
+            height: 66%;
+            width: 62%;
+            border-radius: 58%;
+            margin-left: 45%;
+            margin-top: 15%;
+            background: #3e8925;
+            color: white;
+            text-align: center;
+            display: table;
+            unselectable: on;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -o-user-select: none;
+        }
+
+        .circle-my-avatar-text {
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 3vmax;
+        }
+
+        .embeddedImage:hover {
+            opacity: 0.7;
+        }
+
+        #modalbg2 {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 4999;
+            display: none;
+        }
+
+        #modalbg3 {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 13;
+            display: none;
+        }
+
+        #previewImage {
+            margin: 0 auto;
+            max-height: 80%;
+            display: block;
+            margin-top: 7%;
+            max-width: 80%;
+            z-index: 15;
+        }
+
+        .roller {}
+
+        .lds-roller {
+            display: inline-block;
+            position: relative;
+            width: 64px;
+            height: 64px;
+            text-align: center;
+            display: table;
+            margin: 0 auto;
+            margin-top: 19%;
+        }
+
+        .lds-roller div {
+            animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+            transform-origin: 32px 32px;
+        }
+
+        .lds-roller div:after {
+            content: " ";
+            display: block;
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #3F9DBE;
+            margin: -3px 0 0 -3px;
+        }
+
+        .lds-roller div:nth-child(1) {
+            animation-delay: -0.036s;
+        }
+
+        .lds-roller div:nth-child(1):after {
+            top: 50px;
+            left: 50px;
+        }
+
+        .lds-roller div:nth-child(2) {
+            animation-delay: -0.072s;
+        }
+
+        .lds-roller div:nth-child(2):after {
+            top: 54px;
+            left: 45px;
+        }
+
+        .lds-roller div:nth-child(3) {
+            animation-delay: -0.108s;
+        }
+
+        .lds-roller div:nth-child(3):after {
+            top: 57px;
+            left: 39px;
+        }
+
+        .lds-roller div:nth-child(4) {
+            animation-delay: -0.144s;
+        }
+
+        .lds-roller div:nth-child(4):after {
+            top: 58px;
+            left: 32px;
+        }
+
+        .lds-roller div:nth-child(5) {
+            animation-delay: -0.18s;
+        }
+
+        .lds-roller div:nth-child(5):after {
+            top: 57px;
+            left: 25px;
+        }
+
+        .lds-roller div:nth-child(6) {
+            animation-delay: -0.216s;
+        }
+
+        .lds-roller div:nth-child(6):after {
+            top: 54px;
+            left: 19px;
+        }
+
+        .lds-roller div:nth-child(7) {
+            animation-delay: -0.252s;
+        }
+
+        .lds-roller div:nth-child(7):after {
+            top: 50px;
+            left: 14px;
+        }
+
+        .lds-roller div:nth-child(8) {
+            animation-delay: -0.288s;
+        }
+
+        .lds-roller div:nth-child(8):after {
+            top: 45px;
+            left: 10px;
+        }
+
+        @keyframes lds-roller {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #preloader-entry-text {
+            color: #3F9DBE;
+            margin-left: 40%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <audio id="noti-sound">
+        <source src="https://notificationsounds.com/soundfiles/db85e2590b6109813dafa101ceb2faeb/file-sounds-1114-unsure.mp3" type="audio/mpeg"
+        />
+    </audio>
+    <audio id="video-noti-sound" loop>
+        <source src="notification_sound.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="modalbg2"></div>
+    <div id="modalbg3">
+        <img id="previewImage" />
+    </div>
+    <div id="root">
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <input type="hidden" id="refresh" value="no">
+    
+</body>
+
+</html>
